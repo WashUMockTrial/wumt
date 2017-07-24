@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Juan Williams
-teamTitle: Pepsi® Evangelizer
+teamTitle: Pepsi® Evangelist
 joinYear: '2015'
 graduationYear: '2019'
 majors: Business
@@ -12,4 +12,5 @@ biography: >
   that Summer Time is Pepsi® Time.
 undefined: null
 ---
+
 
