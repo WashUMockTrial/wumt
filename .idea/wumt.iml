@@ -41,5 +41,6 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.5.1, rbenv: 2.4.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-listen (v4.0.0, rbenv: 2.4.1) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v3.7.1, rbenv: 2.4.1) [gem]" level="application" />
+    <orderEntry type="library" name="cms" level="application" />
   </component>
 </module>
