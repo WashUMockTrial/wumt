@@ -1,20 +1,24 @@
 <li>
-    <div class="testimonial">
+   <div class="testimonial">
         <div class="member-image">
-            <img src="{{ person.photo }}" alt="{{ person.name }}">
+            <img src="{{ person.photo | default: "http://placehold.it/150x150" }}" alt="{{ person.name }}">
         </div>
 
 
         <div class="member-content">
-            <h4><a href="members/{{ person.title.lower().replace(' ', '') }}">{{ person.title }}</a></h4>
-            <h5>{{ person.title or " " }}</h5>
+            <h4><a href="members/{{ person.title | lower | replace: " ","_"}}">{{ person.title }}</a></h4>
+            <h5>{{ person.teamTitle | default: " "}}</h5>
 
-            <div><i class="fa fa-graduation-cap"></i> {{ person.major }}</div>
+            <div><i class="fa fa-graduation-cap"></i> {{ person.majors }}</div>
             <div><i class="fa fa-globe"></i> {{ person.hometown }}</div>
             <div>
                 <i class="fa fa-calendar"></i>
-                {% assign years = 2017 - person.joinYear + 1 %}
-                {{ years }} {{ 'Year' if years == 1 else 'Years' }} on WUMT
+                {% assign years = 2018 | minus: person.joinYear%}
+                {% if years == 1 %}
+                    1 Year on WUMT
+                {% else %}
+                    {{ years }} Years on WUMT
+                {% endif %}
             </div>
         </div>
     </div>

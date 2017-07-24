@@ -13,7 +13,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-assets
-
+#
+collections:
+  members:
+    output: true
 
 assets:
   autowrite: true

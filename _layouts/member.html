@@ -1,6 +1,5 @@
 ---
 layout: base
-title: person.title
 ---
 
 <section id="content">
@@ -9,17 +8,17 @@ title: person.title
             <div class="row clearfix">
                 <div class="col-md-9">
                     <div class="clearfix">
-                        <img class="col-md-5" src="{{ person.photo }}" width="300" alt="{{ person.title }}">
+                        <img class="col-md-5" src="{{ page.photo | default: "http://placehold.it/300x300" }}" width="300" alt="{{ page.title }}">
 
                         <div class="col-md-6">
-                            <div class="team-title"><h2>{{ person.title }}</h2>
-                                <h5>{{ person.teamTitle }}</h5>
-                                <span>{{ person.major }}</span>
+                            <div class="team-title"><h2>{{ page.title }}</h2>
+                                <h5>{{ page.teamTitle }}</h5>
+                                <span>{{ page.major }}</span>
                             </div>
 
                             <div class="team-content">
                                 <h3>Biography</h3>
-                                {{ person.biography | markdown }}
+                                {{ page.biography | markdown }}
                             </div>
                         </div>
                     </div>
@@ -28,7 +27,7 @@ title: person.title
                 <div class="col-md-3">
                     <a href="/team" class="button button-blue button-rounded">Back</a>
                     <div data-animate="bounceIn">
-                        {% assign years = 2018 | minus: person.joinYear %}
+                        {% assign years = 2018 | minus: page.joinYear %}
                         <div class="counter counter-large years">
                             <span>{{ years }}</span>
                         </div>

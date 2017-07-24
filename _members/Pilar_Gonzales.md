@@ -17,6 +17,4 @@ biography: >
   moves, making judges smile as her Argentinian-accented witness on bye-buster
   teams, and her on-point Shakira impressions. Outside of WUMT, she enjoys
   politics, history, reading (crime novels, especially), and Game of Thrones.
-undefined: null
 ---
-
