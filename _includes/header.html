@@ -1,0 +1,20 @@
+<header id="header" class="header">
+    <div id="header-wrap">
+        <div class="container clearfix">
+            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+            <div id="logo">
+                <a href="/" class="brand-logo">
+                    {% image wumt_logo.png alt:'WUMT Logo' width:100px %}
+                </a>
+            </div>
+            <nav id="primary-menu">
+                <ul>
+                    {% for link in site.data.links %}
+                        {% assign data = link[1] %}
+                        <li><a href="{{ data.url }}">{{ data.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

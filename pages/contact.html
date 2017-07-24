@@ -1,0 +1,105 @@
+---
+layout: base
+title: Contact Us
+permalink: /contact
+---
+<div class="content-wrap notopmargin">
+
+    <div class="container clearfix">
+        <div class="row clear-bottommargin">
+            <div class="col-sm-8">
+
+                <div class="col-sm-3 nobottommargin clearfix">
+                    <div class="feature-box fbox-small fbox-center">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="fa fa-user-plus"></i></a>
+                        </div>
+                        <h3>Want to Join WUMT?<span class="subtitle"><a href="mailto:recruitment@washumocktrial.org">
+                            Email WUMT Recruitment</a></span>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 nobottommargin clearfix">
+                    <div class="feature-box fbox-small fbox-center">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="fa fa-trophy"></i></a>
+                        </div>
+                        <h3>Arch Questions?
+                        <span class="subtitle"><a href="mailto:archinvitational@washumocktrial.org">
+                            VP for WUMT Tournaments</a>
+                        </span></h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 nobottommargin clearfix">
+                    <div class="feature-box fbox-small fbox-center">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="fa fa-university"></i></a>
+                        </div>
+                        <h3>2016 Regional Questions?
+                        <span class="subtitle"><a href="mailto:regionals@washumocktrial.org">
+                            VP for AMTA Tournaments</a>
+                    </span></h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 nobottommargin clearfix">
+                    <div class="feature-box fbox-small fbox-center">
+                        <div class="fbox-icon">
+                            <a href="#"><i class="fa fa-video-camera"></i></a>
+                        </div>
+                        <h3>Something Else?<span class="subtitle"><a href="mailto:media@washumocktrial.org">
+                            VP for Public Relations</a></span></h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-4 notopmargin">
+                <div class="fancy-title title-dotted-border heading-block notopmargin">
+                    <h3>Sign Up For Our Mailing List!</h3>
+                </div>
+
+                <form accept-charset="UTF-8" action="https://www.sendicate.net/subscribe/xxxxxx" method="post">
+
+
+                </form>
+
+                <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+
+                <form accept-charset="UTF-8" action="https://www.sendicate.net/subscribe/3lnac9" method="post">
+                    <label for="subscriber_name">Name</label>
+                    <input id="subscriber_name" name="subscriber[name]" type="text" class="sm-form-control"/>
+                    <br/>
+
+                    <label for="subscriber_email">Email</label>
+                    <input id="subscriber_email" name="subscriber[email]" type="text" class="sm-form-control"/>
+                    <br/>
+
+                    <button name="commit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-3d nomargin">Submit</button>
+                </form>
+
+                <script type="text/javascript">
+
+	                $("#form").validate({
+		                submitHandler: function (form) {
+			                $('.form-process').fadeIn();
+			                $(form).ajaxSubmit({
+				                target: '#contact-form-result',
+				                success: function () {
+					                $('.form-process').fadeOut();
+					                $('#form').find('.sm-form-control').val('');
+					                $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+					                SEMICOLON.widget.notifications($('#contact-form-result'));
+				                }
+			                });
+		                }
+	                });
+
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>

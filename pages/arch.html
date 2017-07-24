@@ -1,0 +1,115 @@
+---
+layout: base
+title: Arch
+permalink: /arch
+---
+
+{% assign tournament = site.data.arch %}
+<div class="container clearfix">
+    <h1>Arch Invitational</h1>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="entry-image nobottommargin">
+                <a href="#"><img src="http://placehold.it/1140x500" alt="Arch 2015"></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default events-meta">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event Info:</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="iconlist list-unstyled nobottommargin">
+                        <li><i class="fa fa-calendar"></i> October 31st, 2015</li>
+                        <li><i class="fa fa-map-marker"></i> Washington University in St. Louis, Missouri</li>
+                        <li><i class="fa fa-dollar"></i><strong>99.99</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="btn btn-success btn-block btn-lg">Register</a>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <h3>Details</h3>
+
+            {{ tournament.information | markdown }}
+
+        </div>
+        <div class="col-md-6">
+
+            <h4>Schedule and Round Assignments</h4>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                {% assign rounds = tournament.rounds | sort:"number" %}
+                {% for round in rounds %}
+                    <li><a data-toggle="tab" href="#round{{ round.number }}">Round {{ round.number }}</a></li>
+                {% endfor %}
+
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="table-responsive active tab-pane">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Timings</th>
+                            <th>Location</th>
+                            <th>Events</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+									<span class="label label-danger">
+									8:00 - 9:00</span>
+                                <span class="label label-warning">
+									Saturday</span>
+                            </td>
+                            <td>Opening Ceremony</td>
+                            <td>Laboratory Science Building</td>
+                        </tr>
+                        <tr>
+                            <td><span class="label label-danger">12:00 - 12:45</span></td>
+                            <td>Lunch</td>
+                            <td>Anywhere</td>
+                        </tr>
+                        <tr>
+                            <td><span class="label label-danger">13:00 - 14:00</span></td>
+                            <td>Round 2</td>
+                            <td>See Assignments</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                {% assign rounds = tournament.rounds | sort:'number' %}
+                {% for round in rounds %}
+                    <div id="round{{ round.number }}" class="table-responsive tab-pane">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th>Plaintiff</th>
+                                <th>Defense</th>
+                                <th>Location</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for pairing in round.pairings %}
+                                <tr>
+                                    <td> {{ pairing.plaintiff.number }} </td>
+                                    <td> {{ pairing.defense.number }} </td>
+                                    <td><a href="#">{{ pairing.location.name }}</a></td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div>
+</div>

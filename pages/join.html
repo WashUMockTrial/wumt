@@ -1,0 +1,22 @@
+---
+layout: base
+title: Join Us
+permalink: /join
+---
+<div class="content-wrap notoppadding">
+    <div class="container clearfix">
+        <div class=row>
+            <div class=col-md-6>
+                {{ page.message | markdown }}
+                <button class="button button-green">Join Our Prospective Member Mailing List!</button>
+            </div>
+            <div class=col-md-6>
+                {% for video in page.videos %}
+                    <div class=video>
+                        <iframe src="{{ video }}" frameborder=0 allowfullscreen></iframe>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

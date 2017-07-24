@@ -1,0 +1,23 @@
+home:
+  name: Home
+  url: /index
+
+about:
+  name: About
+  url: /about
+
+team:
+  name: Team
+  url: /team
+
+arch:
+  name: Arch Invitational
+  url: /arch
+
+join:
+  name: Join
+  url: /join
+
+contact:
+  name: Contact Us
+  url: /contact

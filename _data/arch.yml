@@ -1,0 +1,32 @@
+---
+rounds:
+  - startTime: 2016-09-09T00:00-07:00
+    name: Round 1
+    pairings:
+    - location:
+        name: Place A
+        coordinates:
+          lat: 38.567065966031365
+          lon: -90.263671875
+      plaintiff:
+        school: Team A
+        number: 123
+      defense:
+        school: Team B
+        number: 234
+    number: 1
+
+information: |-
+  Bacon ipsum dolor amet shank meatloaf jerky tri-tip pork chop beef ribs shoulder. Shoulder ribeye ground round short ribs pancetta. Strip steak pancetta pork loin jowl, alcatra bacon tail. Pork belly sirloin cow kielbasa, turducken pancetta pork. Rump andouille pork belly, pork brisket t-bone fatback salami jerky cupim filet mignon biltong landjaeger.
+
+  Jowl brisket beef ribs tail doner pancetta. Flank ham pastrami, salami frankfurter ham hock short loin biltong hamburger turkey tri-tip boudin meatball porchetta. Bresaola hamburger leberkas, pork loin andouille kielbasa pork drumstick turkey salami meatloaf beef ribs. Cow ham flank pastrami picanha pork belly hamburger. Shank tenderloin sirloin, corned beef tongue ribeye drumstick meatball shankle ham chuck rump porchetta jerky biltong. Pancetta shank ham, boudin kielbasa short ribs pig alcatra t-bone brisket prosciutto cow chuck.
+name: Arch Invitational
+schedule:
+- startTime: 2016-09-09T00:00
+  location:
+    name: Place A
+    coordinates:
+      lat: 38.567065966031365
+      lon: -90.263671875
+  name: Opening Ceremony
+  endTime: 2016-09-10T09:00

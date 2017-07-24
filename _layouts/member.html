@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block title %} {{ person.name }} {% endblock %}
+{% block body %}
+	<section id="content">
+		<div class="content-wrap">
+			<div class="container clearfix">
+				<div class="row clearfix">
+					<div class="col-md-9">
+						<div class="clearfix">
+							<img class="col-md-5" src="{{ person.photo }}" width="300" alt="{{ person.name }}">
+
+							<div class="col-md-6">
+								<div class="team-title"><h2>{{ person.name }}</h2>
+									<h5>{{ person.title }}</h5>
+									<span>{{ person.major }}</span>
+								</div>
+
+								<div class="team-content">
+									<h3>Biography</h3>
+									{{ person.biography | markdown }}
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<a href="/team" class="button button-blue button-rounded">Back</a>
+						<div data-animate="bounceIn">
+							{% set years = year - person.joinYear %}
+							<div class="counter counter-large years">
+								<span>{{ years }}</span>
+							</div>
+							<h5>{{ 'Year' if years == 1 else 'Years' }} on WUMT </h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

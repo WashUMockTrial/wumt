@@ -1,0 +1,40 @@
+---
+layout: base
+permalink: /index
+---
+
+
+<div id="wrapper" class="clearfix">
+    <section id="content">
+        <div class="content-wrap">
+            <div class="container clearfix">
+                <div id="section-home" class="heading-block title-center nobottomborder page-section">
+                    <h1>Welcome to WUMT</h1>
+                    <span> Washington University's Nationally-Recognized Mock Trial Team</span>
+                </div>
+                <div class="center bottommargin">
+                    <a href="{{ site.data.links['join'].url }}"
+                       class="button button-3d button-red button-xlarge nobottommargin">
+                        <i class="fa fa-star"></i> Join Us
+                    </a>
+                    - OR -
+                    <a href="{{ site.data.links['join'].url }}"
+                       class="button button-3d button-darkgreen button-xlarge nobottommargin">
+                        <i class="fa fa-dollar"></i> Donate
+                    </a>
+                </div>
+                <div class="clear"></div>
+                <div class="row">
+                    <div class="col-md-8 topmargin nobottommargin">
+                        {% image team.jpg alt:'A photo of WUMT' data-animate:'fadeInLeft' %}
+                    </div>
+
+                    <div class="col-md-4 topmargin nobottommargin">
+                        <div id="description"></div>
+                        {{ site.data.home.message | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

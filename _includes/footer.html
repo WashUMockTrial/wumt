@@ -1,0 +1,18 @@
+<footer id="footer" class="dark">
+    <div id="copyrights" class="dark">
+        <div class="container clearfix">
+            <div class="col-xs-5">
+                &copy; 2015 All Rights Reserved by Washington University Mock Trial.
+            </div>
+
+            <div class="col-xs-7 tright">
+                <div class="copyrights-menu copyright-links fright clearfix">
+                    {% for link in site.data.links %}
+                        {% assign data = link[1] %}
+                        <a href="{{ data.url }}">{{ data.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
