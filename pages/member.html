@@ -1,6 +1,6 @@
 ---
 layout: base
-title: person.name
+title: person.title
 ---
 
 <section id="content">
@@ -9,10 +9,10 @@ title: person.name
             <div class="row clearfix">
                 <div class="col-md-9">
                     <div class="clearfix">
-                        <img class="col-md-5" src="{{ person.photo }}" width="300" alt="{{ person.name }}">
+                        <img class="col-md-5" src="{{ person.photo }}" width="300" alt="{{ person.title }}">
 
                         <div class="col-md-6">
-                            <div class="team-title"><h2>{{ person.name }}</h2>
+                            <div class="team-title"><h2>{{ person.title }}</h2>
                                 <h5>{{ person.teamTitle }}</h5>
                                 <span>{{ person.major }}</span>
                             </div>
@@ -28,11 +28,15 @@ title: person.name
                 <div class="col-md-3">
                     <a href="/team" class="button button-blue button-rounded">Back</a>
                     <div data-animate="bounceIn">
-                        {% set years = 2017 - person.joinYear + 1 %}
+                        {% assign years = 2018 | minus: person.joinYear %}
                         <div class="counter counter-large years">
                             <span>{{ years }}</span>
                         </div>
-                        <h5>{{ 'Year' if years == 1 else 'Years' }} on WUMT </h5>
+                        {% if years == 1 %}
+                            <h5>1 Year on WUMT</h5>
+                        {% else %}
+                            <h5>{{ years }} Years on WUMT</h5>
+                        {% endif %}
                     </div>
                 </div>
             </div>

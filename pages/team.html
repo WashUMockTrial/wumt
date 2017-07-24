@@ -12,7 +12,7 @@ permalink: /team
     <ul class="testimonials-grid grid-3 clearfix">
         {% assign coaches = site.data.members | where:"role", "Coach" %}
         {% for coach in coaches %}
-            {% include member.html person=coach %}
+            {% include member_stub.html person=coach %}
         {% endfor %}
     </ul>
 </div>
@@ -25,7 +25,7 @@ permalink: /team
     <ul class="testimonials-grid grid-3 clearfix">
         {% assign members = site.data.members | where:"role", "Member" %}
         {% for member in members %}
-            {% include member.html person=coach %}
+            {% include member_stub.html person=coach %}
         {% endfor %}
     </ul>
 </div>

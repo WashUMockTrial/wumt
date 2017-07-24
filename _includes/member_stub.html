@@ -1,0 +1,21 @@
+<li>
+    <div class="testimonial">
+        <div class="member-image">
+            <img src="{{ person.photo }}" alt="{{ person.name }}">
+        </div>
+
+
+        <div class="member-content">
+            <h4><a href="members/{{ person.title.lower().replace(' ', '') }}">{{ person.title }}</a></h4>
+            <h5>{{ person.title or " " }}</h5>
+
+            <div><i class="fa fa-graduation-cap"></i> {{ person.major }}</div>
+            <div><i class="fa fa-globe"></i> {{ person.hometown }}</div>
+            <div>
+                <i class="fa fa-calendar"></i>
+                {% assign years = 2017 - person.joinYear + 1 %}
+                {{ years }} {{ 'Year' if years == 1 else 'Years' }} on WUMT
+            </div>
+        </div>
+    </div>
+</li>
