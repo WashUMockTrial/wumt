@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a112ae2-2aa8-4fb5-9485-b6c97d35ec08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config.yml" afterPath="$PROJECT_DIR$/admin/config.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/clients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/countdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/counter-skills.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/dividers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/faqs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/feature-box.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/headings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/overlay.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/pricing.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/process-steps.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/promo.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/social-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/styled-icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/team.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/testimonials.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/toggles-accordions.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/youtubebg.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_assets/css/style.scss" afterPath="$PROJECT_DIR$/_assets/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,79 +39,26 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/wumt@Jekyll_Build.coverage" NAME="Jekyll Build Coverage Results" MODIFIED="1500893521994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="wumt" />
-    <SUITE FILE_PATH="coverage/wumt@Jekyll_Serve.coverage" NAME="Jekyll Serve Coverage Results" MODIFIED="1500910235241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="wumt" />
+    <SUITE FILE_PATH="coverage/wumt@Jekyll_Serve.coverage" NAME="Jekyll Serve Coverage Results" MODIFIED="1500910459458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="wumt" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="arch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/arch.html">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-928">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.html">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_assets/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="263">
+              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="82" lean-forward="false" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pilargonzales.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/members/pilargonzales.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="934" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="joeludmir.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/members/joeludmir.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="christiancarlson.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/members/christiancarlson.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arch.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/arch.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#72#321#0" expanded="false" />
-                <element signature="e#1274#1468#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -93,9 +66,11 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
+            <state relative-caret-position="699">
               <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-              <folding />
+              <folding>
+                <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +85,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/team.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="222">
+              <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/blog.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/carousel.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="144" column="4" lean-forward="false" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styled-icons.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/styled-icons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="281" column="4" lean-forward="false" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extras.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/extras.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buttons.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9220">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,13 +169,18 @@
       <find>/*</find>
       <find>/\*</find>
       <find>/fonts/</find>
-      <find>not(.no</find>
       <find>{#</find>
       <find>\.\./\.\./</find>
       <find>copy</find>
       <find>sort</find>
       <find>/vendor/</find>
       <find>round in</find>
+      <find>but</find>
+      <find>butt</find>
+      <find>button-red</find>
+      <find>opacity:0</find>
+      <find>opacity: 0</find>
+      <find>not(.no</find>
     </findStrings>
     <replaceStrings>
       <replace>ans</replace>
@@ -161,6 +191,9 @@
       <replace>/vendor/can</replace>
       <replace>/</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/_assets/css/_sass/canvas</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,7 +211,6 @@
         <option value="$PROJECT_DIR$/_layouts/layout.html" />
         <option value="$PROJECT_DIR$/_layouts/layout.html.liquid" />
         <option value="$PROJECT_DIR$/_data/faq.yml" />
-        <option value="$PROJECT_DIR$/pages/about.html" />
         <option value="$PROJECT_DIR$/pages/about.html.liquid" />
         <option value="$PROJECT_DIR$/_data/home.yml" />
         <option value="$PROJECT_DIR$/index.html.liquid" />
@@ -197,7 +229,6 @@
         <option value="$PROJECT_DIR$/_assets/css/_sass/vendor/canvas/extras.scss" />
         <option value="$PROJECT_DIR$/_layouts/base.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_assets/css/style.scss" />
         <option value="$PROJECT_DIR$/pages/contact.html" />
         <option value="$PROJECT_DIR$/pages/join.html" />
         <option value="$PROJECT_DIR$/pages/team.html" />
@@ -205,6 +236,9 @@
         <option value="$PROJECT_DIR$/pages/arch.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/admin/config.yml" />
+        <option value="$PROJECT_DIR$/pages/about.html" />
+        <option value="$PROJECT_DIR$/_assets/css/_sass/canvas/extras.scss" />
+        <option value="$PROJECT_DIR$/_assets/css/style.scss" />
       </list>
     </option>
   </component>
@@ -279,6 +313,27 @@
             <path>
               <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
               <item name="wumt" type="462c0819:PsiDirectoryNode" />
+              <item name="_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wumt" type="462c0819:PsiDirectoryNode" />
+              <item name="_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wumt" type="462c0819:PsiDirectoryNode" />
+              <item name="_assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
+              <item name="canvas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wumt" type="462c0819:PsiDirectoryNode" />
               <item name="_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,6 +346,11 @@
               <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
               <item name="wumt" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wumt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wumt" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,11 +377,11 @@
       <recent name="$PROJECT_DIR$/_assets/js/vendor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_assets/css/_sass/canvas" />
       <recent name="$PROJECT_DIR$/_data" />
       <recent name="$PROJECT_DIR$/_assets/css" />
       <recent name="$PROJECT_DIR$/_assets/css/_sass/vendor/bootstrap" />
       <recent name="$PROJECT_DIR$/_assets/img" />
-      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,12 +599,12 @@
       <workItem from="1500893592289" duration="512000" />
       <workItem from="1500896193745" duration="1435000" />
       <workItem from="1500897643079" duration="452000" />
-      <workItem from="1500898115382" duration="9632000" />
+      <workItem from="1500898115382" duration="10404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13040000" />
+    <option name="totallyTimeSpent" value="13812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -557,7 +617,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -581,71 +641,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_data/faq/1wYYS0XCHm0GisWMw4gmcs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb" />
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -834,26 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/extras.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/dark.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1018" column="11" lean-forward="false" selection-start-line="1018" selection-start-column="7" selection-end-line="1018" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -868,46 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_assets/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -916,45 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/team.html">
+    <entry file="file://$PROJECT_DIR$/admin/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/arch.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#72#321#0" expanded="false" />
-            <element signature="e#1274#1468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/arch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-928">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/members/christiancarlson.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/members/joeludmir.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="335">
+          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -975,10 +879,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config.yml">
+    <entry file="file://$PROJECT_DIR$/_data/members/joeludmir.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/members/christiancarlson.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/arch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/arch.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#72#321#0" expanded="false" />
+            <element signature="e#1274#1468#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <folding>
+            <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/dark.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1018" column="11" lean-forward="false" selection-start-line="1018" selection-start-column="7" selection-end-line="1018" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-542">
+          <caret line="1998" column="9" lean-forward="false" selection-start-line="1998" selection-start-column="5" selection-end-line="1998" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9220">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="82" lean-forward="false" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/carousel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="144" column="4" lean-forward="false" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/styled-icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="281" column="4" lean-forward="false" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/_sass/canvas/extras.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="143" column="4" lean-forward="false" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_assets/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding />
         </state>
       </provider>
