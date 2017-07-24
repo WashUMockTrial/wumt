@@ -17,6 +17,18 @@ biography: >
   being an avid James Bond fan, true crime enthusiast, and a coffee connoisseur.
   Unbeknownst to most of WUMT, she has a tendency to be a bit sarcastic. Rumor
   also has it that Lauren is writing a small screenplay in her steno pad.
+
+
+  ## Lauren's Individual Awards
+
+
+
+
+  **2014**:
+
+
+  * Blues City Scrimmage: Outstanding Witness (14/16 Ranks Δ)
 undefined: null
 ---
+
 
