@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a112ae2-2aa8-4fb5-9485-b6c97d35ec08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/clients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/countdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/counter-skills.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/dividers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/faqs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/feature-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/headings.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/misc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/overlay.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/pricing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/process-steps.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/promo.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/social-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/styled-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/team.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/testimonials.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/toggles-accordions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_assets/css/_sass/canvas/shortcodes/youtubebg.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_assets/css/style.scss" afterPath="$PROJECT_DIR$/_assets/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config.yml" afterPath="$PROJECT_DIR$/admin/config.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_assets/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
               <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="24" column="84" lean-forward="false" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -71,16 +55,6 @@
               <folding>
                 <element signature="n#script#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/join.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -181,6 +155,7 @@
       <find>opacity:0</find>
       <find>opacity: 0</find>
       <find>not(.no</find>
+      <find>optional:</find>
     </findStrings>
     <replaceStrings>
       <replace>ans</replace>
@@ -235,10 +210,10 @@
         <option value="$PROJECT_DIR$/_data/tournament/archinvitational.yml" />
         <option value="$PROJECT_DIR$/pages/arch.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
-        <option value="$PROJECT_DIR$/admin/config.yml" />
         <option value="$PROJECT_DIR$/pages/about.html" />
         <option value="$PROJECT_DIR$/_assets/css/_sass/canvas/extras.scss" />
         <option value="$PROJECT_DIR$/_assets/css/style.scss" />
+        <option value="$PROJECT_DIR$/admin/config.yml" />
       </list>
     </option>
   </component>
@@ -599,12 +574,12 @@
       <workItem from="1500893592289" duration="512000" />
       <workItem from="1500896193745" duration="1435000" />
       <workItem from="1500897643079" duration="452000" />
-      <workItem from="1500898115382" duration="10404000" />
+      <workItem from="1500898115382" duration="10511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13812000" />
+    <option name="totallyTimeSpent" value="13919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -855,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1048,6 +1015,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="24" column="84" lean-forward="false" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
           <folding />
         </state>
       </provider>
