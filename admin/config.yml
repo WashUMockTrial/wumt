@@ -16,7 +16,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "teamTitle", widget: "string",  required: false}
-      - {label: "Role", widget: "select", options: ["Member", "Coach"]}
+      - {label: "Role", widget: "select", options: ["", "Member", "Coach"]}
       - {label: "Join Year", name: "joinYear", widget: "number", default: 2017}
       - {label: "Graduation Year", name: "graduationYear", widget: "number", default: 2021,  required: false}
       - {label: "Majors & Minors", name: "majors", widget: "string",  required: false}
