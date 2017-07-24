@@ -4,7 +4,7 @@ title: Max Handler
 teamTitle: Executive Vice President
 joinYear: '2014'
 graduationYear: '2018'
-majors: Politcal Science and Classics
+majors: Politcal Science & Classics
 photo: null
 hometown: 'Dover, MA'
 biography: >
@@ -18,4 +18,5 @@ biography: >
   Review. In his spare time, he likes to waste time.
 undefined: null
 ---
+
 
