@@ -28,8 +28,17 @@ collections:
 
   - name: "about" # Used in routes, e.g. /admin/collections/blog
     label: "FAQs" # Used in the UI
-    folder: "_data/faqs" # The path to the folder where the documents are stored
+    folder: "_faqs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Question", name: "question", widget: "string"}
+      - {label: "Answer", name: "answer", widget: "markdown",  required: false}
+
+  - name: "recruitment"
+    label: "Recruitment" # Used in the UI
+    folder: "_data/faqs" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Question", name: "question", widget: "string"}

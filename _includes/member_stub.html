@@ -6,7 +6,7 @@
 
 
         <div class="member-content">
-            <h4><a href="members/{{ person.title | lower | replace: " ","_"}}">{{ person.title }}</a></h4>
+            <h4><a href="members/{{ person.title | replace: " ","-" | lower}}">{{ person.title }}</a></h4>
             <h5>{{ person.teamTitle | default: " "}}</h5>
 
             <div><i class="fa fa-graduation-cap"></i> {{ person.majors }}</div>
