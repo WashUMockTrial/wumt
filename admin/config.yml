@@ -8,18 +8,37 @@ public_folder: "/images/uploads"
 
 collections:
   - name: "members" # Used in routes, e.g. /admin/collections/blog
-    label: "Member" # Used in the UI
+    label: "Members" # Used in the UI
     folder: "_data/members" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Title", name: "title", widget: "string",  required: false}
+      - {label: "Title", name: "teamTitle", widget: "string",  required: false}
       - {label: "Role", widget: "select", options: ["Member", "Coach"]}
       - {label: "Join Year", name: "joinYear", widget: "number", default: 2017}
       - {label: "Graduation Year", name: "graduationYear", widget: "number", default: 2021,  required: false}
       - {label: "Majors & Minors", name: "majors", widget: "string",  required: false}
-      - {label: "Picture", name: "picture", widget: "image",  required: false}
+      - {label: "Photo", name: "photo", widget: "image",  required: false}
       - {label: "Hometown", name: "hometown", widget: "string",  required: false}
       - {label: "Biography", name: "biography", widget: "markdown",  required: false}
+
+  - name: "about" # Used in routes, e.g. /admin/collections/blog
+    label: "FAQs" # Used in the UI
+    folder: "_data/faqs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Question", name: "question", widget: "string"}
+      - {label: "Answer", name: "answer", widget: "markdown",  required: false}
+
+#  - name: "team"
+#      label: "teams" # Used in the UI
+#      folder: "_data/arch/teams" # The path to the folder where the documents are stored
+#      create: true # Allow users to create new documents in this collection
+#      slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
+#      fields: # The fields for each document, usually in front matter
+#        - {label: "School", name: "school", widget: "hidden", default: "member"}
+#        - {label: "Question", name: "question", widget: "string"}
+#        - {label: "Answer", name: "answer", widget: "markdown",  required: false}

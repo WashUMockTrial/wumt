@@ -1,38 +1,31 @@
-{#---#}
-{#layout: base#}
-{#title: About#}
-{#permalink: /about#}
-{#---#}
+---
+layout: base
+title: Team
+permalink: /team
+---
 
-{#{% extends "layout.html" %}#}
-{#{% from "_member_stub.html" import member_stub %}#}
 
-{#{% block title %}#}
-	{#Who We Are#}
-{#{% endblock %}#}
+<div id="coaches" class="container clearfix">
+    <div class="fancy-title title-border">
+        <h3>Coaches</h3>
+    </div>
+    <ul class="testimonials-grid grid-3 clearfix">
+        {% assign coaches = site.data.members | where:"role", "Coach" %}
+        {% for coach in coaches %}
+            {% include member.html person=coach %}
+        {% endfor %}
+    </ul>
+</div>
 
-{#{% block body %}#}
-	{#<div id="coaches" class="container clearfix">#}
-		{#<div class="fancy-title title-border">#}
-			{#<h3>Coaches</h3>#}
-		{#</div>#}
-		{#<ul class="testimonials-grid grid-3 clearfix">#}
-			{#{% for coach in coaches %}#}
-				{#{{ member_stub(coach, year) }}#}
-			{#{% endfor %}#}
-		{#</ul>#}
-	{#</div>#}
+<div id="team-members" class="container clearfix">
+    <div class="fancy-title title-border">
+        <h3>Team Members</h3>
+    </div>
 
-	{#<div id="team-members" class="container clearfix">#}
-		{#<div class="fancy-title title-border">#}
-			{#<h3>Team Members</h3>#}
-		{#</div>#}
-
-		{#<ul class="testimonials-grid grid-3 clearfix">#}
-			{#{% for member in members %}#}
-				{#{{ member_stub(member, year) }}#}
-			{#{% endfor %}#}
-		{#</ul>#}
-	{#</div>#}
-
-{#{% endblock %}#}
+    <ul class="testimonials-grid grid-3 clearfix">
+        {% assign members = site.data.members | where:"role", "Member" %}
+        {% for member in members %}
+            {% include member.html person=coach %}
+        {% endfor %}
+    </ul>
+</div>
