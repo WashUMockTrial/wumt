@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: alexweil/wumt # Path to your Github repository
+  repo: alexjweil/wumt # Path to your Github repository
   branch: master # Branch to update
+  site_domain: cms.netlify.com
+#  base_url: https:/api.netlify.com
 
 media_folder: "_assets/img/uploads"
 public_folder: "/images/uploads"
