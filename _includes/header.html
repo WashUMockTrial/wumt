@@ -1,44 +1,27 @@
-<!--<header id="header" class="header container-fluid">
-    <div id="header-wrap">
-        <div class="row clearfix">
-            <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-            <div id="logo">
-                <a href="/" class="brand-logo">
-                    {% image wumt_logo.png alt:'WUMT Logo' width:100px %}
-                </a>
-            </div>
-            <nav id="primary-menu">
-                <ul>
-                    {% for link in site.data.links %}
-                        {% assign data = link[1] %}
-                        <li><a href="{{ data.url }}">{{ data.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </div>
-    </div>
-</header>-->
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button id='navbar-toggle-button' type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-menu"
+            <button id='navbar-toggle-button' type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#primary-menu"
                     aria-expanded="false" aria-controls="primary-menu">
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-2x fa-bars"></i>
             </button>
             <div id="logo">
                 <a href="/" class="brand-logo">
-                    {% image wumt_logo.png alt:'WUMT Logo' width:100px %}
+                    {% image wumt_logo.png alt:'WUMT Logo' width:100 %}
                 </a>
             </div>
         </div>
-        <div id="primary-menu" class="primary-menu dark navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <div id="primary-menu" class="primary-menu dark navbar-collapse collapse" aria-expanded="false"
+             role="menu"
+             style="height: 1px;">
             <ul class="nav navbar-nav">
                 {% for link in site.data.links %}
                     {% assign data = link[1] %}
                     <li><a href="{{ data.url }}">{{ data.name }}</a></li>
                 {% endfor %}
             </ul>
-        </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
+        </div>
+    </div>
 </nav>

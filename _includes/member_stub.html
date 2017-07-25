@@ -1,36 +1,38 @@
-<li>
-    <div class="testimonial">
-        <div class="member-image">
-            <img src="{{ person.photo | default: "http://placehold.it/150x150" }}" alt="{{ person.name }}">
-        </div>
-
-
-        <div class="member-content">
-            <h4><a href="members/{{ person.title | replace: " ","-" | lower }}">{{ person.title }}</a></h4>
-            <h5>{{ person.teamTitle | default: " " }}</h5>
-
-
-            <table class="member-list">
-                <tr>
-                    <td class="member-icon"><i class="fa fa-graduation-cap"></i></td>
-                    <td>{{ person.majors }}</td>
-                </tr>
-                <tr>
-                    <td class="member-icon"><i class="fa fa-globe"></i></td>
-                    <td>{{ person.hometown }}</td>
-                </tr>
-                <tr>
-                    <td class="member-icon"><i class="fa fa-calendar"></i></td>
-                    <td>{% assign years = 2018 | minus: person.joinYear %}
-                        {% if years == 1 %}
-                            1 Year on WUMT
-                        {% else %}
-                            {{ years }} Years on WUMT
-                        {% endif %}</td>
-                </tr>
-            </table>
-
-
-        </div>
+<div class="testimonial member-bio {{ include.size }}">
+    <div class="member-image">
+        <img src="{{ person.photo | default: "http://placehold.it/150x150" }}" alt="{{ person.name }}">
     </div>
-</li>
+
+
+    <div class="member-content">
+        <h4><a href="members/{{ person.title | replace: " ","-" | lower }}">{{ person.title }}</a></h4>
+        <h5>{{ person.teamTitle | default: " " }}</h5>
+
+
+        <ul class="fa-ul member-list">
+
+            <li>
+                <i class="fa-li fa fa fa-graduation-cap"></i>
+                <span class="sr-only">Majors</span>
+                {{ person.majors }}
+            </li>
+            <li>
+                <i class="fa-li fa fa fa-globe"></i>
+                <span class="sr-only">Hometown</span>
+                {{ person.hometown }}
+            </li>
+            <li>
+                <i class="fa-li fa fa fa-calendar"></i>
+                <span class="sr-only">Years on WUMT</span>
+                {% assign years = 2018 | minus: person.joinYear %}
+                {% if years == 1 %}
+                    1 Year on WUMT
+                {% else %}
+                    {{ years }} Years on WUMT
+                {% endif %}
+            </li>
+        </ul>
+
+
+    </div>
+</div>

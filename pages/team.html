@@ -5,29 +5,41 @@ permalink: /team
 ---
 
 
-<div id="coaches" class="container clearfix">
+<div id="coaches" class="grid-container clearfix">
     <div class="fancy-title title-border">
         <h3>Coaches</h3>
     </div>
-    <ul class="testimonials-grid grid-3 clearfix">
+    <ul class="container-fluid">
         {% for person in site.members %}
             {% if person.teamTitle == "Coach" %}
-                {% include member_stub.html person=person %}
+                {% cycle '<li class="row">', '' %}
+                {% include member_stub.html person=person size="col-md-3" %}
+                {% cycle '', '</li>' %}
             {% endif %}
         {% endfor %}
     </ul>
 </div>
 
-<div id="team-members" class="container clearfix">
+<div id="team-members" class="grid-container clearfix">
     <div class="fancy-title title-border">
         <h3>Team Members</h3>
     </div>
 
-    <ul class="testimonials-grid grid-3 clearfix">
+    {% assign members = 0 %}
+    <ul class="container-fluid">
         {% for person in site.members %}
             {% if person.teamTitle != "Coach" %}
-                {% include member_stub.html person=person %}
+                {% assign members = members | plus:1 %}
+                {% cycle '<li class="row">', '', '', '' %}
+                {% include member_stub.html person=person size="col-md-3" %}
+                {% cycle '', '', '', '</li>' %}
             {% endif %}
         {% endfor %}
+        {% assign itemsInLastRow = members | modulo: 4 %}
+        {% if itemsInLastRow != 0 %}
+            {{ "</li>" | strip }}
+        {% endif %}
+
+
     </ul>
 </div>

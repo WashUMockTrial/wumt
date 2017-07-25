@@ -3,20 +3,12 @@
 @import 'bootstrap';
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
-
-
-
-
 @import "_sass/canvas/variables.scss";
 @import "_sass/canvas/mixins.scss";
-
-
 // Core CSS
 @import "_sass/canvas/typography.scss";
 @import "_sass/canvas/helpers.scss";
 @import "_sass/canvas/layouts.scss";
-
-
 // Content Blocks
 @import "_sass/canvas/topbar.scss";
 @import "_sass/canvas/header.scss";
@@ -27,28 +19,26 @@
 @import "_sass/canvas/blog.scss";
 @import "_sass/canvas/shop.scss";
 @import "_sass/canvas/events.scss";
-
-
 @import "_sass/canvas/shortcodes.scss";
-
 @import "_sass/canvas/buttons.scss";
-
-
 // Footer
 @import "_sass/canvas/footer.scss";
-
 @import "_sass/canvas/dark.scss";
 // Widgets
 @import "_sass/canvas/widgets.scss";
-
-
 // Extras
 @import "_sass/canvas/extras.scss";
 
-table .member-list {
-	border-collapse: collapse;
+.member-bio {
+	overflow: hidden;
+	display: block;
+	min-height: 27em;
+	max-height: 30em;
 }
 
-td .member-icon {
-	padding-right: 10px;
+@media screen and (max-width: 453px) {
+	#orDivider {
+		display: block;
+	}
+
 }
