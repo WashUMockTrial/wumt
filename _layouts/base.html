@@ -16,14 +16,15 @@
     <title>{{ title | default: "Washington University Mock Trial" }}</title>
 </head>
 
-<body class="stretched ">
+<body class="stretched container">
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
 
-<script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+</script>
+{% js main %}
 </body>
 </html>
