@@ -10,9 +10,10 @@ permalink: /team
         <h3>Coaches</h3>
     </div>
     <ul class="testimonials-grid grid-3 clearfix">
-        {% assign coaches = site.members | where:"role", "Coach" %}
-        {% for coach in coaches %}
-            {% include member_stub.html person=coach %}
+        {% for person in site.members %}
+            {% if person.teamTitle == "Coach" %}
+                {% include member_stub.html person=person %}
+            {% endif %}
         {% endfor %}
     </ul>
 </div>
@@ -24,7 +25,9 @@ permalink: /team
 
     <ul class="testimonials-grid grid-3 clearfix">
         {% for person in site.members %}
-            {% include member_stub.html person=person %}
+            {% if person.teamTitle != "Coach" %}
+                {% include member_stub.html person=person %}
+            {% endif %}
         {% endfor %}
     </ul>
 </div>

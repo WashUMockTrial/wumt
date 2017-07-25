@@ -45,3 +45,10 @@
 // Extras
 @import "_sass/canvas/extras.scss";
 
+table .member-list {
+	border-collapse: collapse;
+}
+
+td .member-icon {
+	padding-right: 10px;
+}
