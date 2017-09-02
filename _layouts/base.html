@@ -16,9 +16,11 @@
     <title>{{ page.title | default: "Washington University Mock Trial" }}</title>
 </head>
 
-<body class="stretched container">
+<body>
+<div id="main" class="stretched container">
 {% include header.html %}
 {{ content }}
+</div>
 {% include footer.html %}
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
