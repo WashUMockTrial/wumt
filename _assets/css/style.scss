@@ -42,3 +42,16 @@
 	}
 
 }
+
+.equalHeight {
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+}
+
+.darkRecruitment {
+	@extend .dark;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+

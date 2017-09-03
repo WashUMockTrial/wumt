@@ -13,13 +13,14 @@ permalink: /about
                     <h1>FAQs</h1>
                 </div>
 
-                {% for question in site.data.faq %}
+                {% for question in site.faqs %}
+
                     {% assign index = forloop.index | modulo: 2 %}
 
                     {% if index == 1 %} <div class="row"> {% endif %}
                     <div class="faq col-md-6">
-                        <h4><strong>Q.</strong> {{ question.question }}</h4>
-                        {{ question.answer | markdown }}
+                        <h4><strong>Q.</strong> {{ question.title }}</h4>
+                        {{ question.answer | markdownify }}
                     </div>
                     {% if index == 0 %}
                         </div>

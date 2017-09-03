@@ -9,7 +9,8 @@ twitter_username: WUMT
 
 # Build settings
 markdown: kramdown
-#theme: minima
+kramdown:
+  input: GFM
 plugins:
   - jekyll-feed
   - jekyll-assets
@@ -17,6 +18,10 @@ plugins:
 collections:
   members:
     output: true
+  recruitment:
+    output: false
+  faqs:
+    output: false
 
 assets:
   autowrite: true

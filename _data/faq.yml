@@ -1,37 +1,38 @@
 ---
-- question: What does the Mock Trial team do?
-  answer: We work with our coaches and advisors to argue both sides of a fictitious
-    case that is authored by the American Mock Trial Association. During competition,
-    students act as lawyers and witness and argue both the prosecution and defense
-    side of the case.
+question: What does the Mock Trial team do?
+answer: We work with our coaches and advisors to argue both sides of a fictitious
+  case that is authored by the American Mock Trial Association. During competition,
+  students act as lawyers and witness and argue both the prosecution and defense
+  side of the case.
 
-- question: Where do you compete?
-  answer: Throughout the season, different schools will host tournaments, meaning
-    that WUMT tends to travel. In recent years, teams have gone to Washington DC,
-    Iowa City, Memphis, Los Angeles, Chicago, Nashville, Kansas City, Joliet and Orlando!
+question: Where do you compete?
+answer: Throughout the season, different schools will host tournaments, meaning
+  that WUMT tends to travel. In recent years, teams have gone to Washington DC,
+  Iowa City, Memphis, Los Angeles, Chicago, Nashville, Kansas City, Joliet and Orlando!
 
-- question: How long are tournaments and competitions? Who judges you?
-  answer: Tournaments usually last two to three days. They are always held on weekends.
-    During a tournament, we compete in four trials. Each trial will last a minimum
-    of two hours and no more than three hours. We're judged by law students, practicing
-    attorneys, judges, and, at the National Tournament, even State Supreme Court Justices!
+question: How long are tournaments and competitions? Who judges you?
+answer: Tournaments usually last two to three days. They are always held on weekends.
+  During a tournament, we compete in four trials. Each trial will last a minimum
+  of two hours and no more than three hours. We're judged by law students, practicing
+  attorneys, judges, and, at the National Tournament, even State Supreme Court Justices!
 
-- question: How many people are on a team?
-  answer: In competition, each team consists of up to 8 people, but contains, at
-    a minimum, 3 attorneys, 3 witnesses, and timekeeper. It's very common for students
-    to play roles on both sides of the case. WUMT often sends multiple teams to tournaments
-    so that many students are able to participate.
+title: How many people are on a team?
+answer: |
+  In competition, each team consists of up to 8 people, but contains, at
+  a minimum, 3 attorneys, 3 witnesses, and timekeeper. It's very common for students
+  to play roles on both sides of the case. WUMT often sends multiple teams to tournaments
+  so that many students are able to participate.
 
-- question: How is college Mock Trial different that high school Mock Trial?
-  answer: There's no need to worry if you didn't participate in mock trial in high
-    school. Some of our best competitors competed at the high school level while others
-    first learned about the activity when they arrived at WashU. The most notable
-    difference between high school and college mock trial is the presence of "extra"
-    witnesses. In high school, most states don't let you choose which witnesses you
-    want to call to the stand, but in college, you (and your opponent) both get that
-    chance. There are 8-12 witnesses in the case, and you don't learn until a half-hour
-    before the trial begins which witnesses will be in the round, meaning that every
-    trial is different, and making trials more spontaneous and fun. There are also
-    other subtle differences in time limits, the applicability of certain objections,
-    and, for some people, the number of attorneys (3 per side in college).
+question: How is college Mock Trial different that high school Mock Trial?
+answer: There's no need to worry if you didn't participate in mock trial in high
+  school. Some of our best competitors competed at the high school level while others
+  first learned about the activity when they arrived at WashU. The most notable
+  difference between high school and college mock trial is the presence of "extra"
+  witnesses. In high school, most states don't let you choose which witnesses you
+  want to call to the stand, but in college, you (and your opponent) both get that
+  chance. There are 8-12 witnesses in the case, and you don't learn until a half-hour
+  before the trial begins which witnesses will be in the round, meaning that every
+  trial is different, and making trials more spontaneous and fun. There are also
+  other subtle differences in time limits, the applicability of certain objections,
+  and, for some people, the number of attorneys (3 per side in college).
 
