@@ -26,16 +26,16 @@ permalink: /join
                         {% assign shift = "col-md-offset-0" %}
                     {% endif %}
 
-                    <div class="col-md-{{ width }} col-xs-8 col-xs-offset-2 {{ shift }} {{ color }}">
+                    <div class="col-md-{{ width }} col-xs-12 col-sm-8 col-sm-offset-2 {{ shift }} {{ color }}">
 
                         <div class="pricing-box {{ color }}">
                             <div>
                                 <div class="pricing-title">
-                                    <h3>{{ category.title }}</h3>
+                                    <h3>{{ category.name }}</h3>
                                 </div>
 
                                 <div class="pricing-features">
-                                    {{ category.body | markdownify }}
+                                    {{ category.message | markdownify }}
                                 </div>
                                 <div class="pricing-action">
                                     <a href="#" class="btn btn-danger btn-block btn-lg">Sign Up</a>
