@@ -6,6 +6,7 @@ joinYear: '2014'
 graduationYear: '2018'
 majors: Political Science & Classics
 photo: null
+role: Member
 hometown: 'Dover, MA'
 biography: >
   Max is a senior and is WUMT's Executive Vice President. He has been with the

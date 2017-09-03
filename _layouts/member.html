@@ -9,12 +9,20 @@ title: page.title
             <div class="row clearfix">
                 <div class="col-md-9">
                     <div class="clearfix">
-                        <img class="col-md-5" src="{{ page.photo | default: "http://placehold.it/300x300" }}" width="300" alt="{{ page.title }}">
+                        <img class="col-md-5" src="{{ page.photo | default: "http://placehold.it/300x300" }}"
+                             width="300" alt="{{ page.title }}">
 
                         <div class="col-md-6">
                             <div class="team-title"><h2>{{ page.title }}</h2>
                                 <h5>{{ page.teamTitle }}</h5>
-                                <span>{{ page.major }}</span>
+                                {% if page.role == "Coach" %}
+                                    <span>{{ page.majors }}</span>
+                                {% else %}
+                                    <span>Major: {{ page.majors }}</span>
+                                    {% unless page.minors == nil %}
+                                    <span>Minor: {{ page.minors }}</span>
+                                    {% endunless %}
+                                {% endif %}
                             </div>
 
                             <div class="team-content">

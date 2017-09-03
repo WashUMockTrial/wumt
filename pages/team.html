@@ -30,7 +30,7 @@ permalink: /team
         {% for person in site.members %}
             {% if person.teamTitle != "Coach" %}
                 {% assign members = members | plus:1 %}
-                {% cycle '<li class="row">', '', '', '' %}
+                {% cycle '<li class="row equalHeight">', '', '', '' %}
                 {% include member_stub.html person=person size="col-md-3" %}
                 {% cycle '', '', '', '</li>' %}
             {% endif %}

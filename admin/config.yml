@@ -16,12 +16,13 @@ collections:
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
-      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Name", name: "title", widget: "string", required: true}
       - {label: "Title", name: "teamTitle", widget: "string",  required: false}
-      - {label: "Role", widget: "select", options: ["", "Member", "Coach"]}
+      - {label: "Role", widget: "select", options: ["", "Member", "Coach"], required: true}
       - {label: "Join Year", name: "joinYear", widget: "number", default: 2017}
       - {label: "Graduation Year", name: "graduationYear", widget: "number", default: 2021,  required: false}
-      - {label: "Majors & Minors", name: "majors", widget: "string",  required: false}
+      - {label: "Majors", name: "majors", widget: "string",  required: false}
+      - {label: "Minors", name: "majors", widget: "string",  required: false}
       - {label: "Photo", name: "photo", widget: "image",  required: false}
       - {label: "Hometown", name: "hometown", widget: "string",  required: false}
       - {label: "Biography", name: "biography", widget: "markdown",  required: false}

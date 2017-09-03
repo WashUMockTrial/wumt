@@ -6,6 +6,7 @@ joinYear: '2014'
 graduationYear: '2018'
 majors: Mathematics
 photo: null
+role: Member
 hometown: 'Los Angeles, CA'
 biography: >-
   Joseph has always enjoyed public speaking, but now going into his fourth year

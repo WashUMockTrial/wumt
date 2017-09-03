@@ -4,8 +4,10 @@ title: Pilar Gonzalez
 teamTitle: Tournament Chair
 joinYear: '2015'
 graduationYear: '2019'
-majors: 'International and Area Studies, Minor: German'
+majors: International and Area Studies
+minors: German
 photo: null
+role: Member
 hometown: 'St. Louis, MO'
 biography: >-
   Having loved mock trial in high school, Pilar joined the team freshman year

@@ -4,7 +4,9 @@ title: Lauren Spungen
 teamTitle: Treasurer
 joinYear: '2014'
 graduationYear: '2018'
-majors: 'Psychology, Minors: Spanish & Legal Studies'
+majors: Psychology
+minors: 'Spanish & Legal Studies'
+role: Member
 photo: null
 hometown: 'Deerfield, IL'
 biography: >-

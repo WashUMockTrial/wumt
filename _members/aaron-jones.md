@@ -3,6 +3,7 @@ layout: member
 title: Aaron Jones
 teamTitle: Coach
 joinYear: 2017
+role: Coach
 graduationYear: '2030'
 majors: United States Air Force JAG Corps
 photo: null

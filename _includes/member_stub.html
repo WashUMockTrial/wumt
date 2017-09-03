@@ -10,19 +10,27 @@
 
 
         <ul class="fa-ul member-list">
-
             <li>
-                <i class="fa-li fa fa fa-graduation-cap"></i>
-                <span class="sr-only">Majors</span>
-                {{ person.majors }}
+
+                {% if person.role == "Coach" %}
+                    <i class="fa-li fa fa-briefcase"></i>
+                    <span class="sr-only">Employer</span>
+                    <span>{{ person.majors }} </span><br>
+                {% else %}
+                    <i class="fa-li fa fa-graduation-cap"></i>
+                    <span>Major: {{ person.majors }} </span><br>
+                    {% unless person.minors == nil %}
+                        <span>Minor: {{ person.minors }}</span>
+                    {% endunless %}
+                {% endif %}
             </li>
             <li>
-                <i class="fa-li fa fa fa-globe"></i>
+                <i class="fa-li fa fa-globe"></i>
                 <span class="sr-only">Hometown</span>
                 {{ person.hometown }}
             </li>
             <li>
-                <i class="fa-li fa fa fa-calendar"></i>
+                <i class="fa-li fa fa-calendar"></i>
                 <span class="sr-only">Years on WUMT</span>
                 {% assign years = 2018 | minus: person.joinYear %}
                 {% if years == 1 %}

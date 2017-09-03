@@ -6,6 +6,7 @@ joinYear: '2015'
 graduationYear: '2019'
 majors: Economics and Strategy
 photo: null
+role: Member
 hometown: 'Atlanta, GA'
 biography: >-
   Joining WUMT in his freshman year, Juan Williams II has loved his time on the
