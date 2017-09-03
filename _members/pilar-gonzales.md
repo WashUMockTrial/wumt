@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Pilar Gonzales
+title: Pilar Gonzalez
 teamTitle: Tournament Chair
 joinYear: '2015'
 graduationYear: '2019'
@@ -16,4 +16,5 @@ biography: >-
   the gym, or in the BSBA lounge procrastinating and drinking too much coffee.
 undefined: Member
 ---
+
 
