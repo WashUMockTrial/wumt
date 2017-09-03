@@ -1,16 +1,20 @@
 ---
 layout: member
 title: Juan Williams
-teamTitle: Pepsi® Evangelist
+teamTitle: Co-Recruitment Chair
 joinYear: '2015'
 graduationYear: '2019'
-majors: Business
+majors: Economics and Strategy
 photo: null
 hometown: 'Atlanta, GA'
-biography: >
-  A long-time supporter of Pepsi® products, Juan Williams emphatically believes
-  that Summer Time is Pepsi® Time.
+biography: >-
+  Joining WUMT in his freshman year, Juan Williams II has loved his time on the
+  team, especially when he gets to conduct a particularly tense cross. He loves
+  the opportunities mock trial provides him to practice public speaking and
+  critical thinking in the moment. Juan is an avid reader of history and an avid
+  watcher of House of Cards. He is not a meteorologist.
 undefined: null
 ---
+
 
 
