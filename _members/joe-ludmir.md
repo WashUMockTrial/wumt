@@ -1,52 +1,41 @@
 ---
 layout: member
 title: Joe Ludmir
-teamTitle: El Presidente
+teamTitle: President
 joinYear: '2014'
 graduationYear: '2018'
 majors: Mathematics
 photo: null
 hometown: 'Los Angeles, CA'
-biography: >+
-  High-pitched? Yes. The butt of jokes on the team? Always. Frantic? Ask any
-  WUMT member. But despite this, Joe enjoys the activity as much as everyone
-  else on the team. Since joining the team as a freshman, he’s reigned in his
-  temptation to read his co-counsel’s steno pads (don’t even think about it) and
-  considers WUMT his family outside of Los Angeles. He loves the ability to
-  dramatically object as an attorney, play a confident professor in linguistics,
-  or simply hang out and sing Let It Go on car trips. His goofy, lovable, and
-  passionate personality fits in well on the team, providing occasional laughs
-  and smiles in stressful times. On the side, Joe is a Taylor Swift-loving
-  sports fanatic who also is amazed by mathematics and computer science (but he
-  isn’t your stereotypical nerd).
+biography: >-
+  Joseph has always enjoyed public speaking, but now going into his fourth year
+  in WUMT he has found a fondness for mock trial unrivaled. Whether it is
+  playing the role of an overly eager linguist or delivering opening statements
+  about how unjust an elderly person’s firing was, he has gotten to play tons of
+  different roles on the team, but more importantly he has joined a close knit
+  family in WUMT. When not mocking it up, Joe can be found in the library
+  drinking a Caramel Macchiato listening to Taylor Swift while doing
+  mathematical proofs or cheering wildly for the Lakers even though they kinda
+  suck.
 
 
   ## Joe's Individual Awards
 
-    
-
-
-    
-
 
   **2015:**
-
-    
 
 
   * Arch Invitational: Outstanding Attorney (18 Ranks Δ)
 
-    
 
 
   * Arch Invitational: Outstanding Witness (17 Ranks Π)
 
-    
 
 
   * Billiken Barristers' Invitational: Outstanding Attorney (17 Ranks Π)
-
 undefined: null
 ---
+
 
 
