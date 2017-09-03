@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Lauren Spungen
-teamTitle: Makin' Bank
+teamTitle: Treasurer
 joinYear: '2014'
 graduationYear: '2018'
 majors: 'Psychology, Minors: Spanish & Legal Studies'
@@ -27,6 +27,7 @@ biography: >-
   * Blues City Scrimmage: Outstanding Witness (14/16 Ranks Δ)
 undefined: null
 ---
+
 
 
 
