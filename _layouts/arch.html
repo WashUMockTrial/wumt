@@ -1,0 +1,132 @@
+---
+layout: base
+title: Arch Invitational
+permalink: /arch
+---
+
+{% assign tournament = page %}
+<div class="container clearfix">
+    <h1>Arch Invitational</h1>
+    <div class="row bottommargin">
+        <div class="col-md-9">
+            <div class="entry-image nobottommargin">
+                <a href="#"><img src="http://placehold.it/1140x500" alt="Arch 2015"></a>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default events-meta">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Event Info:</h3>
+                </div>
+                <div class="panel-body">
+                    <ul class="iconlist list-unstyled nobottommargin">
+                        <li><i class="fa fa-calendar"></i> October 31st, 2015</li>
+                        <li><i class="fa fa-map-marker"></i> Washington University in St. Louis, Missouri</li>
+                    </ul>
+                </div>
+            </div>
+            {% if tournament.packet == nil %}
+                {% assign disable_packet = "disabled" %}
+            {% endif %}
+            <a href="{{ tournament.packet.url }}" {{ disable_packet }} class="btn btn-success btn-block btn-lg">Tournament
+                                                                                                                Packet</a>
+            {% if tournament.results == nil %}
+                {% assign disable_results = "disabled" %}
+            {% endif %}
+            <a href="{{ tournament.packet.url }}" {{ disable_results }}
+               class="btn btn-block btn-lg btn-danger">Tournament Results</a>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+
+            <h3>Details</h3>
+
+            {{ tournament.details | markdownify }}
+
+        </div>
+        <div class="col-md-6">
+
+            <h3>Schedule and Round Assignments</h3>
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
+                {% for i in (1..4) %}
+                    {% assign round_number = "round" | append: i %}
+                    {% assign round = tournament[round_number] %}
+                    {% if round == nil %}
+                        {% break %}
+                    {% endif %}
+                    <li><a data-toggle="tab" href="#round{{ i }}">Round {{ i }}</a></li>
+                {% endfor %}
+
+            </ul>
+            <div class="tab-content">
+                <div id="home" class="table-responsive active tab-pane">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                            <th>Location</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for event in tournament.schedule %}
+                            <tr>
+                                <td>
+                                    <span class="label label-info">{{ event.startTime | date: '%A, %-d/%-m' }}</span>
+                                    <span class="label label-danger">{{ event.startTime | date: '%l:%M %p' }}</span>
+                                </td>
+                                <td>{{ event.title }}</td>
+                                <td>{{ event.location }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                {% for i in (1..4) %}
+                    {% assign round_number = "round" | append: i %}
+                    {% assign round_name = tournament[round_number] %}
+                    {% if round_name == nil %}
+                        {% break %}
+                    {% endif %}
+                    {% for round in site.rounds %}
+                        {% if round.title != round_name %}
+                            {% continue %}
+                        {% endif %}
+                        <div id="round{{ i }}" class="table-responsive tab-pane">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    {% if tournament.caseType == "Civil" %}
+                                        <th>Plaintiff</th>
+                                    {% else %}
+                                        <th>Prosecution</th>
+                                    {% endif %}
+                                    <th>Defense</th>
+                                    <th>Location</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for pairing in round.pairings %}
+                                    <tr>
+                                        <td> {{ pairing.prosecution }} </td>
+                                        <td> {{ pairing.defense }} </td>
+                                        <td>{{ pairing.location }}</td>
+                                    </tr>
+                                {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% endfor %}
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div>
+</div>

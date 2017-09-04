@@ -54,24 +54,25 @@ collections:
   - name: "arch"
     label: "Arch"
     folder: "_arch"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "hidden", default: "Arch Invitational"}
+      - {label: "Title", name: "title", widget: "string", default: "ArchInvitational"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "arch"}
+      - {label: "Case Type", name: "caseType", widget: "select", options: ["", "Civil", "Criminal"], required: true}
       - {label: "Photo", name: "photo", widget: "image",  required: false}
       - {label: "Details", name: "details", widget: "markdown", required: true}
       - {label: "Tournament Packet", name: "packet", widget: "file", required: false}
-      - {label: "Round 1", name: round1, widget: relation, collection: round, searchFields: [title], valueField: pairings}
-      - {label: "Round 2", name: round2, widget: relation, collection: round, searchFields: [title], valueField: pairings}
-      - {label: "Round 3", name: round3, widget: relation, collection: round, searchFields: [title], valueField: pairings}
-      - {label: "Round 4", name: round4, widget: relation, collection: round, searchFields: [title], valueField: pairings}
+      - {label: "Round 1", name: round1, widget: relation, collection: round, searchFields: [title], valueField: title, required: false}
+      - {label: "Round 2", name: round2, widget: relation, collection: round, searchFields: [title], valueField: title, required: false}
+      - {label: "Round 3", name: round3, widget: relation, collection: round, searchFields: [title], valueField: title, required: false}
+      - {label: "Round 4", name: round4, widget: relation, collection: round, searchFields: [title], valueField: title, required: false}
       - name: schedule
         label: Schedule
         widget: list
         fields:
+          - {label: "Event Name", name: "title", widget: "string", required: true}
           - {label: "Start Time", name: "startTime", widget: "datetime", required: true}
-          - {label: "End Time", name: "endTime", widget: "datetime", required: true}
-          - {label: "Event", name: "title", widget: "string", required: true}
           - {label: "Location", name: "location", widget: "string", required: false}
 
 

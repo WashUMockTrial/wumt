@@ -1,5 +1,7 @@
 ---
 title: Arch Invitational 2017
+layout: arch
+caseType: Criminal
 details: >-
   **Bacon ipsum dolor amet shank meatloaf jerky tri-tip pork chop** beef ribs
   shoulder. Shoulder ribeye ground round short ribs pancetta. Strip steak
@@ -17,9 +19,9 @@ details: >-
   Pancetta shank ham, boudin kielbasa short ribs pig alcatra t-bone brisket
   prosciutto cow chuck.
 round1: 2017 Round 1
+round2: '2017 Round 2'
 schedule:
-  - endTime: 2017-09-07T15:33:26-05:00
-    location: LabSci 202
+  - location: LabSci 202
     startTime: 2017-09-07T05:00:00-05:00
     title: Opening Ceremony
 ---

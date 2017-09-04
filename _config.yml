@@ -24,8 +24,9 @@ collections:
     output: false
   rounds:
     output: false
-  schedules:
-    output: false
+  arch:
+    output: true
+    permalink: /:name
 
 
 assets:
