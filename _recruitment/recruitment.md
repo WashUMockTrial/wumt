@@ -19,15 +19,17 @@ groups:
       Mock Trial is a great opportunity to develop your public speaking skills
       and establish your own voice, enhancing your charisma and persuasiveness.
       Attorneys also work to strengthen their analytical/critical thinking
-      skills as they attempt to sort through the year’s case and put pieces of a
-      seemingly contradictory puzzle together. They will be required to learn
-      how to adapt to unexpected situations and think (and speak) on their feet,
-      a skill that is transferrable to both interviews and everyday
-      conversation. As a bonus, our attorneys acquire real-life legal knowledge
-      on trial proceedings and the rules of evidence that have helped many of
-      our graduates succeed in law school!
+      skills as they come up with creative solutions to seemingly contradictory
+      parts of the year’s case in order to develop the most innovative case
+      theories. They will be required to learn how to adapt to unexpected
+      situations and think (and speak) on their feet, a skill that is
+      transferrable to both interviews and everyday conversation. As a bonus,
+      our attorneys acquire real-life legal knowledge on trial proceedings and
+      the rules of evidence that have helped many of our graduates succeed in
+      law school!
     name: For Arguers
 ---
+
 
 
 
