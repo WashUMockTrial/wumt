@@ -22,6 +22,11 @@ collections:
     output: false
   faqs:
     output: false
+  rounds:
+    output: false
+  schedules:
+    output: false
+
 
 assets:
   autowrite: true

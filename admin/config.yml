@@ -37,11 +37,11 @@ collections:
       - {label: "Answer", name: "answer", widget: "markdown",  required: false}
 
   - name: "recruitment"
-    label: "Recruitment" # Used in the UI
-    folder: "_recruitment" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+    label: "Recruitment"
+    folder: "_recruitment"
+    create: false
+    slug: "{{slug}}"
+    fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Main Message", name: "main_message", widget: "markdown", required: true}
       - name: "groups"
@@ -51,12 +51,41 @@ collections:
           - {label: "Name", name: "name", widget: "string", required: true}
           - {label: "Message", name: "message", widget: "markdown", required: true}
 
-#  - name: "team"
-#      label: "teams" # Used in the UI
-#      folder: "_data/arch/teams" # The path to the folder where the documents are stored
-#      create: true # Allow users to create new documents in this collection
-#      slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
-#      fields: # The fields for each document, usually in front matter
-#        - {label: "School", name: "school", widget: "hidden", default: "member"}
-#        - {label: "Question", name: "question", widget: "string"}
-#        - {label: "Answer", name: "answer", widget: "markdown",  required: false}
+  - name: "arch"
+    label: "Arch"
+    folder: "_arch"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "hidden", default: "Arch Invitational"}
+      - {label: "Photo", name: "photo", widget: "image",  required: false}
+      - {label: "Details", name: "details", widget: "markdown", required: true}
+      - {label: "Tournament Packet", name: "packet", widget: "file", required: false}
+      - {label: "Round 1", name: round1, widget: relation, collection: round, searchFields: [title], valueField: pairings}
+      - {label: "Round 2", name: round2, widget: relation, collection: round, searchFields: [title], valueField: pairings}
+      - {label: "Round 3", name: round3, widget: relation, collection: round, searchFields: [title], valueField: pairings}
+      - {label: "Round 4", name: round4, widget: relation, collection: round, searchFields: [title], valueField: pairings}
+      - name: schedule
+        label: Schedule
+        widget: list
+        fields:
+          - {label: "Start Time", name: "startTime", widget: "datetime", required: true}
+          - {label: "End Time", name: "endTime", widget: "datetime", required: true}
+          - {label: "Event", name: "title", widget: "string", required: true}
+          - {label: "Location", name: "location", widget: "string", required: false}
+
+
+  - name: "round"
+    label: "Round Pairings"
+    folder: "_rounds"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Round", name: "title", widget: "string", required: true}
+      - name: pairings
+        label: Pairing
+        widget: list
+        fields:
+          - {label: "Prosecution", name: "prosecution", widget: "string", required: true}
+          - {label: "Defense", name: "defense", widget: "string",  required: true}
+          - {label: "Location", name: "location", widget: "string", required: true}
