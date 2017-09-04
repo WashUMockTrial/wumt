@@ -4,13 +4,12 @@ title: Arch Invitational
 permalink: /arch
 ---
 
-{% assign tournament = page %}
 <div class="container clearfix">
     <h1>Arch Invitational</h1>
     <div class="row bottommargin">
         <div class="col-md-9">
             <div class="entry-image nobottommargin">
-                <a href="#"><img src="http://placehold.it/1140x500" alt="Arch 2015"></a>
+                <a href="#"><img src="{{ page.photo | default: "http://placehold.it/1140x500" }}" alt="Arch 2017"></a>
             </div>
         </div>
         <div class="col-md-3">
@@ -25,15 +24,15 @@ permalink: /arch
                     </ul>
                 </div>
             </div>
-            {% if tournament.packet == nil %}
+            {% if page.packet == nil %}
                 {% assign disable_packet = "disabled" %}
             {% endif %}
-            <a href="{{ tournament.packet.url }}" {{ disable_packet }} class="btn btn-success btn-block btn-lg">Tournament
-                                                                                                                Packet</a>
-            {% if tournament.results == nil %}
+            <a href="{{ page.packet.url | default: "#" }}" {{ disable_packet }}
+               class="btn btn-success btn-block btn-lg">Tournament Packet</a>
+            {% if page.results == nil %}
                 {% assign disable_results = "disabled" %}
             {% endif %}
-            <a href="{{ tournament.packet.url }}" {{ disable_results }}
+            <a href="{{ page.results.url | default: "#" }}" {{ disable_results }}
                class="btn btn-block btn-lg btn-danger">Tournament Results</a>
         </div>
     </div>
@@ -44,7 +43,7 @@ permalink: /arch
 
             <h3>Details</h3>
 
-            {{ tournament.details | markdownify }}
+            {{ page.details | markdownify }}
 
         </div>
         <div class="col-md-6">
@@ -54,7 +53,7 @@ permalink: /arch
                 <li class="active"><a data-toggle="tab" href="#home">Schedule</a></li>
                 {% for i in (1..4) %}
                     {% assign round_number = "round" | append: i %}
-                    {% assign round = tournament[round_number] %}
+                    {% assign round = page[round_number] %}
                     {% if round == nil %}
                         {% break %}
                     {% endif %}
@@ -73,7 +72,7 @@ permalink: /arch
                         </tr>
                         </thead>
                         <tbody>
-                        {% for event in tournament.schedule %}
+                        {% for event in page.schedule %}
                             <tr>
                                 <td>
                                     <span class="label label-info">{{ event.startTime | date: '%A, %-d/%-m' }}</span>
@@ -89,7 +88,7 @@ permalink: /arch
 
                 {% for i in (1..4) %}
                     {% assign round_number = "round" | append: i %}
-                    {% assign round_name = tournament[round_number] %}
+                    {% assign round_name = page[round_number] %}
                     {% if round_name == nil %}
                         {% break %}
                     {% endif %}
@@ -101,7 +100,7 @@ permalink: /arch
                             <table class="table table-striped">
                                 <thead>
                                 <tr>
-                                    {% if tournament.caseType == "Civil" %}
+                                    {% if page.caseType == "Civil" %}
                                         <th>Plaintiff</th>
                                     {% else %}
                                         <th>Prosecution</th>
