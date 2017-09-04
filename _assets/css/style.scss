@@ -49,6 +49,21 @@
 	flex-wrap: wrap;
 }
 
+.recruitmentBox {
+	@extend .pricing-features;
+	text-align: justify;
+	padding: 1em 2em 0 2em;
+}
+
+#main-message {
+	text-align: justify;
+	p > a {
+		color: #FFFFFF;
+		font-weight: bold;
+		text-decoration: underline !important;
+	}
+}
+
 .darkRecruitment {
 	@extend .dark;
 	border-radius: 3px;
