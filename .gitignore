@@ -3,4 +3,4 @@ _site
 .asset-cache
 .idea
 .jekyll-metadata
-
+**/autocomplete_only/*
