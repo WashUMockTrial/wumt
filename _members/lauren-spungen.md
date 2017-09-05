@@ -5,9 +5,8 @@ teamTitle: Treasurer
 joinYear: '2014'
 graduationYear: '2018'
 majors: Psychology
-minors: 'Spanish & Legal Studies'
-role: Member
-photo: null
+minors: Spanish & Legal Studies
+photo: /images/uploads/lauren.jpg
 hometown: 'Deerfield, IL'
 biography: >-
   Lauren impulsively joined her high school mock trial team after discovering
@@ -27,8 +26,10 @@ biography: >-
 
 
   * Blues City Scrimmage: Outstanding Witness (14/16 Ranks Δ)
+role: Member
 undefined: null
 ---
+
 
 
 
