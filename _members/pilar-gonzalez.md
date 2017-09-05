@@ -6,7 +6,7 @@ joinYear: '2015'
 graduationYear: '2019'
 majors: Political Science and International Development
 minors: German
-photo: /images/uploads/pilar.jpg
+photo: /img/uploads/pilar.jpg
 hometown: 'St. Louis, MO'
 biography: >-
   Having loved mock trial in high school, Pilar joined the team freshman year

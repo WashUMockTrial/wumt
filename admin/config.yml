@@ -5,8 +5,8 @@ backend:
 #  site_domain: cms.netlify.com
 #  base_url: https:/api.netlify.com
 
-media_folder: "_assets/img/uploads"
-public_folder: "/images/uploads"
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
 
 collections:
   - name: "members" # Used in routes, e.g. /admin/collections/blog
