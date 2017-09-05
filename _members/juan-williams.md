@@ -5,7 +5,7 @@ teamTitle: Co-Recruitment Chair
 joinYear: '2015'
 graduationYear: '2019'
 majors: Economics and Strategy
-photo: /images/uploads/juan.jpg
+photo: /img/uploads/juan.jpg
 hometown: 'Atlanta, GA'
 biography: >-
   Joining WUMT in his freshman year, Juan Williams II has loved his time on the

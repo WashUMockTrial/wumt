@@ -5,7 +5,7 @@ teamTitle: Coach
 joinYear: '2017'
 graduationYear: '2030'
 majors: St. Clair County State's Attorneys Office
-photo: /images/uploads/dorothy.png
+photo: /img/uploads/dorothy.png
 hometown: null
 biography: >-
   Dorothy is an Assistant State's Attorney with the St. Clair County State's

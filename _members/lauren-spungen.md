@@ -6,7 +6,7 @@ joinYear: '2014'
 graduationYear: '2018'
 majors: Psychology
 minors: Spanish & Legal Studies
-photo: /images/uploads/lauren.jpg
+photo: /img/uploads/lauren.jpg
 hometown: 'Deerfield, IL'
 biography: >-
   Lauren impulsively joined her high school mock trial team after discovering

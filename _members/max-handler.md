@@ -5,7 +5,7 @@ teamTitle: Executive Vice President
 joinYear: '2014'
 graduationYear: '2018'
 majors: Political Science & Classics
-photo: /images/uploads/max.jpg
+photo: /img/uploads/max.jpg
 hometown: 'Dover, MA'
 biography: >
   Max is a senior and is WUMT's Executive Vice President. He has been with the
