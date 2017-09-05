@@ -3,10 +3,9 @@ layout: member
 title: Aaron Jones
 teamTitle: Coach
 joinYear: 2017
-role: Coach
 graduationYear: '2030'
 majors: United States Air Force JAG Corps
-photo: null
+photo: /images/uploads/aaron.jpg
 hometown: ''
 biography: >-
   Aaron is a Captain in the United States Air Force JAG Corps.  Aaron has
@@ -16,6 +15,8 @@ biography: >-
   award during his first AMTA season, a feat which he followed up by never
   winning any other awards.  ​He spends most of his time trying to catch up to
   the number of jury trials his wife and co-coach Dorothy has litigated.
+role: Coach
 undefined: null
 ---
+
 
