@@ -5,8 +5,7 @@ teamTitle: Executive Vice President
 joinYear: '2014'
 graduationYear: '2018'
 majors: Political Science & Classics
-photo: null
-role: Member
+photo: /images/uploads/max.jpg
 hometown: 'Dover, MA'
 biography: >
   Max is a senior and is WUMT's Executive Vice President. He has been with the
@@ -17,8 +16,10 @@ biography: >
   Ness," "Goblin," "Ghoul," and "a zombie with no conscience." Outside of mock
   trial, he serves as a staff editor for the Washington University Political
   Review. In his spare time, he likes to waste time.
+role: Member
 undefined: null
 ---
+
 
 
 
