@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dana Abelson
-teamTitle: Co-Recruitment Chair
+teamTitle: Recruitment Chair
 joinYear: 2016
 graduationYear: '2020'
 majors: Political Science & Psychology
@@ -22,4 +22,5 @@ biography: >-
 role: Co-Recruitment Chair
 undefined: Member
 ---
+
 
