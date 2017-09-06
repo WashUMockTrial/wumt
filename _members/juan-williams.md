@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Juan Williams
-teamTitle: Co-Recruitment Chair
+teamTitle: ''
 joinYear: '2015'
 graduationYear: '2019'
 majors: Economics and Strategy
@@ -16,6 +16,7 @@ biography: >-
 role: Member
 undefined: null
 ---
+
 
 
 
