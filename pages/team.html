@@ -9,11 +9,11 @@ permalink: /team
     <div class="fancy-title title-border">
         <h3>Coaches</h3>
     </div>
-    <ul class="container-fluid">
+    <ul class="container">
         {% for person in site.members %}
             {% if person.teamTitle == "Coach" %}
                 {% cycle '<li class="row">', '' %}
-                {% include member_stub.html person=person size="col-md-3" %}
+                {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
                 {% cycle '', '</li>' %}
             {% endif %}
         {% endfor %}
@@ -26,12 +26,12 @@ permalink: /team
     </div>
 
     {% assign members = 0 %}
-    <ul class="container-fluid">
+    <ul class="container">
         {% for person in site.members %}
             {% if person.teamTitle != "Coach" %}
                 {% assign members = members | plus:1 %}
                 {% cycle '<li class="row equalHeight">', '', '', '' %}
-                {% include member_stub.html person=person size="col-md-3" %}
+                {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
                 {% cycle '', '', '', '</li>' %}
             {% endif %}
         {% endfor %}
