@@ -43,14 +43,11 @@ permalink: /join
                     </div>
                 {% endfor %}
                 <script>
-					const categories = Array.from(document.getElementsByClassName('pricing-features'));
-					makeBoxesEqualHeight = () => {
-						categories.forEach(c => c.style.height = "");
-						const height = Math.max(...categories.map(c => c.clientHeight));
-						categories.forEach(c => c.style.height = `${height}px`)
-					};
-					//					window.addEventListener('resize', makeBoxesEqualHeight);
-					makeBoxesEqualHeight()
+                    // Make the boxes equal height
+					const categories = Array.from(document.getElementsByClassName('recruitmentBox'));
+					categories.forEach(c => c.style.height = "");
+					const height = Math.max(...categories.map(c => c.clientHeight));
+					categories.forEach(c => c.style.height = `${height}px`)
                 </script>
 
             </div>

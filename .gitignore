@@ -4,3 +4,4 @@ _site
 .idea
 .jekyll-metadata
 **/autocomplete_only/*
+node_modules

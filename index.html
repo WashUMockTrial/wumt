@@ -9,8 +9,10 @@ permalink: /index
         <div class="container clearfix">
             <div id="section-home" class="heading-block title-center nobottomborder page-section">
                 <h1>Welcome to WUMT</h1>
-                <span>Washington University's Nationally-Recognized Mock Trial Team</span>
+                <span>Washington University's Nationally-Recognized Mock Trial Team is excited to welcome its newest members:</span>
+                {% comment %}<span>Washington University's Nationally-Recognized Mock Trial Team</span>{% endcomment %}
             </div>
+            {% comment %}
             <div class="center bottommargin row">
                 <a href="{{ site.data.links['join'].url }}"
                    class="button button-3d button-red button-xlarge nobottommargin">
@@ -22,18 +24,37 @@ permalink: /index
                     <i class="fa fa-dollar"></i> Donate
                 </a>
             </div>
-            <div class="clear"></div>
-            <div class="row">
-                <div class="col-md-7 topmargin nobottommargin">
-                    <!--{% image team.jpg alt:'A photo of WUMT' data-animate:'fadeInLeft' style: "width: 640px; height: 480;" %}-->
-                    <img width="640px" height="480px" data-animate='fadeInLeft' alt="The team" src="img/team.jpg">
+            {% endcomment %}
+            <div class="container clearfix">
+
+
+                <div id="countdown-ex1" class="countdown countdown-large divcenter is-countdown welcomePanel">
+                    {% assign rows = site.data.newMembers.size | divided_by: 4.0 | ceil %}
+                    {% for i in (1..rows) %}
+                        <div class="row">
+                            {% assign offset = forloop.index0 | times: 4 %}
+                            {% for member in site.data.newMembers limit:4 offset:offset %}
+                                <span class="welcomeGrid"><span class="welcomeTitle">{{ member }}</span></span>
+                            {% endfor %}
+                        </div>
+                        <hr/>
+                    {% endfor %}
+
+                </div>
+                <div class="clear"></div>
+
+
+                <div class="row">
+                    <div class="col-md-7 topmargin nobottommargin keep-ratio">
+                        <img data-animate='fadeInLeft' alt="The team" src="img/team.jpg">
+                    </div>
+
+                    <div class="col-md-4 topmargin nobottommargin">
+                        <div id="description"></div>
+                        {{ site.data.home.message | markdownify }}
+                    </div>
                 </div>
 
-                <div class="col-md-4 topmargin nobottommargin">
-                    <div id="description"></div>
-                    {{ site.data.home.message | markdownify }}
-                </div>
             </div>
-        </div>
     </section>
 </div>

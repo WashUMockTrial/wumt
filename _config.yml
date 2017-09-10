@@ -33,3 +33,4 @@ assets:
   autowrite: true
   prefix: "/assets"
   digest: true
+

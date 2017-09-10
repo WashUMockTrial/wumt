@@ -16,7 +16,6 @@
 @import "_sass/canvas/pagetitle.scss";
 @import "_sass/canvas/content.scss";
 @import "_sass/canvas/portfolio.scss";
-@import "_sass/canvas/blog.scss";
 @import "_sass/canvas/shop.scss";
 @import "_sass/canvas/events.scss";
 @import "_sass/canvas/shortcodes.scss";
@@ -43,6 +42,18 @@
 
 }
 
+.keep-ratio {
+	display: block;
+	@media screen and (min-width: 453px) {
+		max-width:640px;
+		max-height:480px;
+	}
+
+	width: auto;
+	height: auto;
+}
+
+// Recruitment Page
 .equalHeight {
 	display: flex;
 	display: -webkit-flex;
@@ -70,3 +81,19 @@
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
+// Welcome to new members
+
+.welcomePanel {
+	max-width:700px;
+}
+.welcomeGrid {
+	@extend .center;
+	@extend .col-xs-12;
+	@extend .col-md-3;
+	border-right: 1px dashed rgba(77, 77, 77, 0.2);
+}
+
+.welcomeTitle {
+	@extend .countdown-amount;
+	font-size: 35px !important;
+}
