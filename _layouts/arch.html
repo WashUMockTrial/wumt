@@ -9,7 +9,7 @@ permalink: /arch
     <div class="row bottommargin">
         <div class="col-md-9">
             <div class="entry-image nobottommargin">
-                <a href="#"><img src="{{ page.photo | default: "http://placehold.it/1140x500" }}" alt="Arch 2017"></a>
+                <a href="#"><img src="{{ page.photo | default: 'http://placehold.it/1140x500' }}" alt="Arch 2017"></a>
             </div>
         </div>
         <div class="col-md-3">
@@ -27,12 +27,12 @@ permalink: /arch
             {% if page.packet == nil %}
                 {% assign disable_packet = "disabled" %}
             {% endif %}
-            <a href="{{ page.packet.url | default: "#" }}" {{ disable_packet }}
+            <a href="{{ page.packet.url | default: '#' }}" {{ disable_packet }}
                class="btn btn-success btn-block btn-lg">Tournament Packet</a>
             {% if page.results == nil %}
                 {% assign disable_results = "disabled" %}
             {% endif %}
-            <a href="{{ page.results.url | default: "#" }}" {{ disable_results }}
+            <a href="{{ page.results.url | default: '#' }}" {{ disable_results }}
                class="btn btn-block btn-lg btn-danger">Tournament Results</a>
         </div>
     </div>
@@ -74,9 +74,9 @@ permalink: /arch
                         <tbody>
                         {% for event in page.schedule %}
                             <tr>
-                                <td>
-                                    <span class="label label-info">{{ event.startTime | date: '%A, %-d/%-m' }}</span>
-                                    <span class="label label-danger">{{ event.startTime | date: '%l:%M %p' }}</span>
+                                <td class="time-block" data-date="{{ event.startTime }}">
+                                    <span class="label label-info time-day">{{ event.startTime }}</span>
+                                    <span class="label label-danger time-hour">{{ event.startTime | date: '%l:%M %p' }}</span>
                                 </td>
                                 <td>{{ event.title }}</td>
                                 <td>{{ event.location }}</td>
@@ -129,3 +129,13 @@ permalink: /arch
         </div>
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script>
+    const days = document.getElementsByClassName("time-day");
+    const hours = document.getElementsByClassName("time-hour");
+
+//    function formatTime(item, formatString) {
+//        item.
+//    }
+</script>

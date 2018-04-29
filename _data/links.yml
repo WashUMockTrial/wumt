@@ -10,9 +10,9 @@ team:
   name: Team
   url: /team
 
-arch:
-  name: Arch Invitational
-  url: /arch
+#arch:
+#  name: Arch Invitational
+#  url: /arch
 
 join:
   name: Join

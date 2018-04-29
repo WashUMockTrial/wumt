@@ -34,3 +34,15 @@ assets:
   prefix: "/assets"
   digest: true
 
+#uncss:
+#  stylesheets:            # a list of stylesheets to be processed; mandatory
+#    - _site/assets/style-*.css
+#  files:                  # html files to consider, globs are supported; default: **/*.html
+#    - "_site/*.html"
+#  compress: true          # compress resulting css with sass; default: false
+#  ignore:                 # always keep rules for these selectors; default: none
+#    - ".is-loading"
+#    - "#titleBar"
+#  media:                  # additional media queries to consider; default: undefined
+#    - print
+#  timeout: 30             # how long to wait for the JS to be loaded; default: undefined
