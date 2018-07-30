@@ -9,7 +9,7 @@ main_message: >-
   out [Buzzfeed’s 10 Reasons to Join Wash U Mock
   Trial](https://www.buzzfeed.com/artsmart/top-10-reasons-to-join-wash-u-mock-trial-edpk?utm_term=.oaVo0pVN9#.hr61Oy2Rp).
   If you have any questions, feel free to email our recruitment chair, [Katie
-  Hayes](mailto:katie.hayes@washumocktrial.org). Details on our info
+  Hayes](mailto:recruitment@washumocktrial.org). Details on our info
   sessions/tryouts coming soon!
 groups:
   - message: >-
