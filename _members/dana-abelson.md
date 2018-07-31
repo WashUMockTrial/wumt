@@ -1,12 +1,12 @@
 ---
 layout: member
 title: Dana Abelson
-teamTitle: Recruitment Chair
+teamTitle: VP for External Events
 joinYear: 2016
 graduationYear: '2020'
 majors: Political Science & Psychology
 minors: American Culture Studies
-photo: /img/uploads/dana.jpg
+photo: ''
 hometown: 'Highland Park, IL'
 biography: >-
   Ever since Dana created a 35-slide powerpoint in order to convince her parents
