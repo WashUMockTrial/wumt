@@ -1,12 +1,12 @@
 ---
 layout: member
 title: Pilar Gonzalez
-teamTitle: Tournament Chair
+teamTitle: ''
 joinYear: '2015'
 graduationYear: '2019'
 majors: Political Science and International Development
 minors: German
-photo: /img/uploads/pilar.jpg
+photo: ''
 hometown: 'St. Louis, MO'
 biography: >-
   Having loved mock trial in high school, Pilar joined the team freshman year
@@ -15,10 +15,6 @@ biography: >-
   favorite part about mock trial is the bonding that happens on road trips to
   tournaments. When not in class or at practice, Pilar is probably napping, at
   the gym, or in the BSBA lounge procrastinating and drinking too much coffee.
-role: Member
 undefined: Member
 ---
-
-
-
 
