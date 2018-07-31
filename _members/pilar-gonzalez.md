@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Pilar Gonzalez
-teamTitle: ''
+teamTitle: Member
 joinYear: '2015'
 graduationYear: '2019'
 majors: Political Science and International Development
