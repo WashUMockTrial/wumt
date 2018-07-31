@@ -1,11 +1,11 @@
 ---
 layout: member
 title: Sam Edison
-teamTitle: ''
+teamTitle: Member
 joinYear: 2016
 graduationYear: '2020'
 majors: Political Science
-photo: /img/uploads/sam.jpg
+photo: ''
 hometown: 'New York, NY'
 biography: >-
   After impulsively joining the Model UN team in high school, Sam became
