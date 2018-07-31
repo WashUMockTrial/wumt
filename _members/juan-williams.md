@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Juan Williams
-teamTitle: ''
+teamTitle: Member
 joinYear: '2015'
 graduationYear: '2019'
 majors: Economics and Strategy
