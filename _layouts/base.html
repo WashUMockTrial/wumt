@@ -11,15 +11,21 @@
     <link rel="stylesheet" type="text/css"
           href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105834302-1"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous"/>
     <script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments)}
+
+		function gtag() {
+			dataLayer.push(arguments)
+		}
+
 		gtag('js', new Date());
 		gtag('config', 'UA-105834302-1');
     </script>
 
 
-    {% css style %}
+    {% asset style %}
     <title>{{ page.title | default: "Washington University Mock Trial" }}</title>
 </head>
 
@@ -34,6 +40,6 @@
         integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
         crossorigin="anonymous">
 </script>
-{% js main %}
+{% asset main %}
 </body>
 </html>

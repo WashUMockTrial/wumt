@@ -36,16 +36,16 @@ title: page.title
                 <div class="col-md-3">
                     <a href="/team" class="button button-blue button-rounded">Back</a>
                     <div data-animate="bounceIn">
-                        {% assign years = 2018 | minus: page.joinYear %}
                         <div class="counter counter-large years">
-                            <span>{{ years }}</span>
+                            <span id="year-counter" data-years="{{ page.joinYear }}"></span>
                         </div>
-                        {% if years == 1 %}
-                            <h5>1 Year on WUMT</h5>
-                        {% else %}
-                            <h5>{{ years }} Years on WUMT</h5>
-                        {% endif %}
+                        <h5 id="year-holder"></h5>
                     </div>
+                    <script>
+						const yearCounter = document.getElementById('year-counter');
+						const yearsOnTeam = Number.parseInt(yearCounter.dataset.years);
+						yearCounter.innerText = `${yearsOnTeam} Year${yearsOnTeam === 1 ? '' : 's'}`;
+                    </script>
                 </div>
             </div>
         </div>

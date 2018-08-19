@@ -1,8 +1,6 @@
 // Initialize
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
-@import 'font-awesome-sprockets';
-@import 'font-awesome';
+//@import 'bootstrap-sprockets';
+@import 'bootstrap.scss';
 @import "_sass/canvas/variables.scss";
 @import "_sass/canvas/mixins.scss";
 // Core CSS
