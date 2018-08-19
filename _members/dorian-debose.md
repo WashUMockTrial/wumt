@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Dorian Debose
+title: Dorian DeBose
 joinYear: 2017
 graduationYear: 2021
 hometown: 'Kansas City, MO'
