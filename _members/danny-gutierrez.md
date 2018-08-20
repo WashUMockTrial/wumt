@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Danny Gutierrez
+teamTitle: Member
 joinYear: 2017
 graduationYear: 2021
 majors: Economics and Strategy
