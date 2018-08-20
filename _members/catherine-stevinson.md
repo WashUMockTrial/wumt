@@ -1,6 +1,7 @@
 ---
 layout: member
 title: Catherine Stevinson
+teamTitle: Member
 joinYear: 2017
 graduationYear: 2021
 majors: Political Science and English
