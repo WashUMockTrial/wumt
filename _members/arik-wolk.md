@@ -5,7 +5,7 @@ teamTitle: VP of WUMT Events
 joinYear: 2017
 graduationYear: 2021
 majors: Political Science and English
-hometown: 'Millburn, New Jersey'
+hometown: 'Millburn, NJ'
 biography: >-
   After being a member of the debate team throughout high school, Arik Wolk
   decided to take on a new form of public speaking with mock trial. No matter
