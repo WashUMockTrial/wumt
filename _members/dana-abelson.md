@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dana Abelson
-teamTitle: VP for External Events
+teamTitle: VP of Tournaments
 joinYear: 2016
 graduationYear: '2020'
 majors: Political Science & Psychology
