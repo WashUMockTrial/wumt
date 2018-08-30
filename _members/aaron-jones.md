@@ -6,7 +6,7 @@ role: Coach
 joinYear: 2017
 graduationYear: '2030'
 majors: United States Air Force JAG Corps
-photo: /img/uploads/aaron.jpg
+photo: /img/uploads/aaron.png
 hometown: ''
 biography: >-
   Aaron is a Captain in the United States Air Force JAG Corps.  Aaron has
