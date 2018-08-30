@@ -2,11 +2,12 @@
 layout: member
 title: Dana Abelson
 teamTitle: VP of Tournaments
+role: Member
 joinYear: 2016
 graduationYear: '2020'
 majors: Political Science & Psychology
 minors: American Culture Studies
-photo: ''
+photo: /img/uploads/dana.png
 hometown: 'Highland Park, IL'
 biography: >-
   Ever since Dana created a 35-slide powerpoint in order to convince her parents
@@ -17,6 +18,5 @@ biography: >-
   her in the upper level of the DUC contemplating her existence and listening to
   Ariana Grande (despite a teammate’s claim that she seemed like the type of
   person who would be a closet Katy Perry fan).
-undefined: Member
 ---
 
