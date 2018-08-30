@@ -2,11 +2,12 @@
 layout: member
 title: Alexis Pinzon
 teamTitle: Member
+role: Member
 joinYear: 2016
 graduationYear: '2020'
 majors: International and Area Studies
 minors: Latin American Studies
-photo: ''
+photo: /img/uploads/alexis.png
 hometown: 'Fullerton, CA'
 biography: >-
   Alexis joined WUMT eager to continue her mock trial career after loving her
@@ -16,6 +17,5 @@ biography: >-
   who has a smile on her face most of the time (excluding midterm/finals
   season). Outside of WUMT, Alexis spends her time at the gym working (no, not
   working out) or at the CSC.
-undefined: Member
 ---
 
