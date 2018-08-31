@@ -2,11 +2,12 @@
 layout: member
 title: Rebecca Bowman
 teamTitle: Member
+role: Member
 joinYear: 2016
 graduationYear: '2020'
 majors: American Culture Studies
 minors: Legal Studies & African and African American Studies
-photo: ''
+photo: /img/uploads/rebecca.png
 hometown: 'Chicago, IL'
 biography: >-
   Looking to polish up her debate skills from high school, Rebecca joined mock
@@ -17,6 +18,5 @@ biography: >-
   40 to practice, you can catch her in BD writing papers until 4 am. Aside from
   mocking, she enjoys poetry, listening to music and dancing. Sidenote: her
   steno is filled with cute spiral doodles and cursive-written song lyrics.
-undefined: Member
 ---
 
