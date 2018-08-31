@@ -2,9 +2,11 @@
 layout: member
 title: Pranaya Pahwa
 teamTitle: Member
+role: Member
 joinYear: 2017
 graduationYear: 2021
 majors: Political Science and History
+photo: /img/uploads/pranaya.png
 hometown: 'Cupertino, CA'
 biography: >-
   Pranaya finds mock trial a serviceable collegiate extracurricular. He enjoys
@@ -16,6 +18,5 @@ biography: >-
   loneliness that lies ahead. Occasionally he performs this intense reflection
   accompanied by vegetarian Haute cuisine and a stuffed Giraffe named Paul
   Giamatti.
-undefined: Member
 ---
 
