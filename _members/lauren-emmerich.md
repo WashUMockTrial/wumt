@@ -2,10 +2,12 @@
 layout: member
 title: Lauren Emmerich
 teamTitle: VP of Finance
+role: Member
 joinYear: 2017
 graduationYear: 2021
 majors: Political Science
 minors: Psychology
+photo: /img/uploads/lauren.png
 hometown: 'Madison, NJ'
 biography: >-
   Despite never doing mock trial in high school (or really any other form of
@@ -16,6 +18,5 @@ biography: >-
   bingeing Suits, sitting in Whispers for hours procrastinating (usually with
   the Mock Trial team), and working as a research assistant for the
   Interdisciplinary Project in the Humanities.
-undefined: Member
 ---
 
