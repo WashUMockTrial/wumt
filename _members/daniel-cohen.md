@@ -2,11 +2,12 @@
 layout: member
 title: Daniel Cohen
 teamTitle: President
+role: Member
 joinYear: 2016
 graduationYear: '2020'
 majors: Philosophy (Law and Policy)
 minors: Legal Studies
-photo: ''
+photo: /img/uploads/dan.png
 hometown: 'Long Island, NY'
 biography: >-
   Daniel joined WUMT as a freshman after loving mock trial all four years of
@@ -14,6 +15,5 @@ biography: >-
   friends freshman year. You can find Dan being an attorney (always missing his
   steno) or playing an overly Jewish witness. Outside of WUMT, Dan runs his own
   on-campus business and interviews potential students for admission to WashU.
-undefined: Member
 ---
 
