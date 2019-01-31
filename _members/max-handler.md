@@ -5,7 +5,7 @@ teamTitle: Coach
 role: Coach
 joinYear: '2018'
 graduationYear: ''
-majors: Classics
+majors: Teach For America
 photo: /img/uploads/maximillion.jpg
 hometown: 'Dover, Massachusetts'
 biography: >-
