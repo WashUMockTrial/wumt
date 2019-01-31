@@ -6,7 +6,7 @@ role: Member
 joinYear: '2018'
 graduationYear: '2022'
 majors: Psychology and Political Science
-photo: /img/uploads/42b39eea6ef540f2990b6e325a03e391.jpeg
+photo: /img/uploads/8a53e850dc1847ddbd3b12b502eed5c7.jpeg
 hometown: 'Boston, Massachusetts'
 biography: >-
   Nathalie loved doing mock trial in high school and knew she wanted to continue
