@@ -1,9 +1,11 @@
 ---
 layout: member
 title: Emily Regan
+teamTitle: Member
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
+majors: Political Science and Global Health
 photo: /img/uploads/screen-shot-2018-11-01-at-15.08.40.png
 hometown: 'Libertyville, Illinois'
 biography: >-
