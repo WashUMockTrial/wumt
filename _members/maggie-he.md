@@ -7,7 +7,7 @@ joinYear: '2018'
 graduationYear: '2022'
 majors: Sociology and American Cultural Studies
 minors: Spanish
-photo: /img/uploads/97bbac781b6b40c695ae758cc8818595.jpeg
+photo: /img/uploads/5585c9f6cd014c0ca4e5e35b6151b3f2.jpeg
 hometown: 'Rockton, Illinois'
 biography: >-
   After falling in love with Speech in high school, Maggie decided to continue
