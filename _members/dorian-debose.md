@@ -5,7 +5,9 @@ teamTitle: VP of Statistics
 role: Member
 joinYear: 2017
 graduationYear: 2021
-photo: /img/uploads/dorian.png
+majors: Philosophy
+minors: Sociology and Writing
+photo: /img/uploads/win_20180620_19_31_54_pro.jpg
 hometown: 'Overland Park, KS'
 biography: >-
   Dorian hails from the greatest flyover state West of Missouri: Kansas. In
