@@ -17,5 +17,9 @@ biography: >-
   of forensics, and the constant grind of wheat staring. When he’s not mocking
   trial, Dorian is busy running bits, changing his major and writing for
   Studlife.
+
+
+  Dorian is also the owner of the critically acclaimed twitter account,
+  @verbosedebose. He views retweeting him onto your feed as community service.
 ---
 
