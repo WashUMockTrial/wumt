@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Dominic "Dom" Bottom
+title: Dominic Bottom
 teamTitle: Member
 role: Member
 joinYear: '2018'
