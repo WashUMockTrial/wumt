@@ -5,6 +5,8 @@ teamTitle: Member
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
+majors: Art History
+minors: F Sharp
 photo: /img/uploads/31948267_788956787968093_5184906840676237312_n.jpg
 hometown: 'Chevy Chase, Maryland'
 biography: >-
@@ -14,6 +16,6 @@ biography: >-
   icon around Wash. U's campus, William can be found doing Mock Trial. His
   favorite team member is Dorian DeBose, who he thinks is really cool and didn't
   write this. His favorite memory of Dorian was when Dorian saved a pack of baby
-  kittens from a fire. He urges you to follow Dorian at twitter, @verbosedebose.
+  kittens from a fire.
 ---
 
