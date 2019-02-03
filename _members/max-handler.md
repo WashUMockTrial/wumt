@@ -3,7 +3,7 @@ layout: member
 title: Max Handler
 teamTitle: Coach
 role: Coach
-joinYear: '2018'
+joinYear: '2014'
 graduationYear: ''
 majors: Teach For America
 photo: /img/uploads/maximillion.jpg
