@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Maggie He
-teamTitle: Member
+teamTitle: Recruitment Chair
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
