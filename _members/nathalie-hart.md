@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Nathalie Hart
-teamTitle: Member
+teamTitle: Tournament Chair
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
