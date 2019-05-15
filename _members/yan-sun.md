@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Yan Sun
-teamTitle: Member
+teamTitle: Vice President
 role: Member
 joinYear: 2017
 graduationYear: 2021
