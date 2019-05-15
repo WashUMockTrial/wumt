@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dorian DeBose
-teamTitle: VP of Statistics
+teamTitle: New Member Coordinator
 role: Member
 joinYear: 2017
 graduationYear: 2021
