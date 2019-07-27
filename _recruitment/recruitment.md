@@ -8,8 +8,8 @@ main_message: >-
   the courtroom (you can like it while you’re there!) Still not convinced? Check
   out [Buzzfeed’s 10 Reasons to Join Wash U Mock
   Trial](https://www.buzzfeed.com/artsmart/top-10-reasons-to-join-wash-u-mock-trial-edpk?utm_term=.oaVo0pVN9#.hr61Oy2Rp).
-  If you have any questions, feel free to email our recruitment chair, [Katie
-  Hayes](mailto:recruitment@washumocktrial.org). Details on our info
+  If you have any questions, feel free to email our recruitment chair,
+  [M](mailto:recruitment@washumocktrial.org)aggie He. Details on our info
   sessions/tryouts coming soon!
 groups:
   - message: >-
