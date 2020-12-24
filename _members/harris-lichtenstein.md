@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Harris Lichtenstein
-teamTitle: Treasurer
+teamTitle: New-Member Coordinator
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
