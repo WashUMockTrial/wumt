@@ -5,7 +5,7 @@ teamTitle: Member
 role: President
 joinYear: '2018'
 graduationYear: '2022'
-majors: Political Science and Sociology
+majors: Political Science, Sociology
 photo: /img/uploads/49489fb3c25f4d44bcf22e6d034cdb7d.jpeg
 hometown: 'Bardstown, Kentucky'
 biography: >-
