@@ -2,7 +2,7 @@
 layout: member
 title: Alex Brown
 teamTitle: Member
-role: Member
+role: President
 joinYear: '2018'
 graduationYear: '2022'
 majors: Political Science and Sociology
