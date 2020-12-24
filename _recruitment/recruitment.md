@@ -1,20 +1,15 @@
 ---
 title: Join WUMT!
 main_message: >-
-  So you want to be a part of WashU Mock Trial? Well, you’ve come to the right
-  place. If you’re interested in trying out for WUMT this fall, learn more about
-  mock trial here and visit our [Facebook
-  page](https://www.facebook.com/WUMockTrial/) to see us in action in and out of
-  the courtroom (you can like it while you’re there!) Still not convinced? Check
-  out [Buzzfeed’s 10 Reasons to Join Wash U Mock
-  Trial](https://www.buzzfeed.com/artsmart/top-10-reasons-to-join-wash-u-mock-trial-edpk?utm_term=.oaVo0pVN9#.hr61Oy2Rp).
-  If you have any questions, feel free to email our recruitment chair,
-  [M](mailto:recruitment@washumocktrial.org)aggie He. Details on our info
-  sessions/tryouts coming soon!
+  WUMT has finished recruiting for the 2020-2021 school year, but you can follow us 
+  on [Facebook](https://www.facebook.com/WUMockTrial) and [Instagram]
+  (https://www.instagram.com/washumocktrial) to see what we're up to and get updates 
+  about future recruitment! If you have any questions, please email our 
+  Recruitment Chair, [Nathalie Hart](mailto:recruitment@washumocktrial.org).
 groups:
   - message: >-
       Judging simply by the name Mock Trial, one might assume that this activity
-      is only for future lawyers, but WUMT highly values its actors as well. It
+      is only for future lawyers, but WUMT needs actors as well. It
       is the job of those who play witnesses to creatively develop a
       multifaceted character based off of a set of facts and a goal (the
       information provided in a legal document called an affidavit) rather than
