@@ -1,8 +1,8 @@
 ---
 layout: member
 title: Daniel Cohen
-teamTitle: President
-role: Member
+teamTitle: Coach
+role: Coach
 joinYear: 2016
 graduationYear: '2020'
 majors: Philosophy (Law and Policy)
