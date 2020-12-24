@@ -1,11 +1,11 @@
 ---
 layout: member
 title: Alex Brown
-teamTitle: Member
-role: President
+teamTitle: President
+role: member
 joinYear: '2018'
 graduationYear: '2022'
-majors: Political Science, Sociology
+majors: Political Science and Sociology
 photo: /img/uploads/49489fb3c25f4d44bcf22e6d034cdb7d.jpeg
 hometown: 'Bardstown, Kentucky'
 biography: >-
