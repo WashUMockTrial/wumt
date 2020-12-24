@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Emily Regan
-teamTitle: Member
+teamTitle: Tournament Co-Chair
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
