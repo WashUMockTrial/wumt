@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Max Handler
-teamTitle: Head Coach
+teamTitle: Coach
 role: Coach
 joinYear: '2014'
 graduationYear: ''
