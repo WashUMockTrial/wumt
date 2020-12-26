@@ -5,10 +5,10 @@ teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 
+majors: 'Finance and Economics & Strategy'
 minors: 
 photo: 
-hometown: 
+hometown: 'Snellville, Georgia'
 biography: >-
   Coming soon!
 ---
