@@ -5,10 +5,10 @@ teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 
+majors: 'Undecided'
 minors: 
 photo: 
-hometown: 
+hometown: 'Baltimore, Maryland'
 biography: >-
   Coming soon!
 ---
