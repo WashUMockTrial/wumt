@@ -5,7 +5,7 @@ teamTitle: Member
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
-majors: Undecided
+majors: 'French and Philosophy'
 photo: /img/uploads/51249290_393337134804593_5660238228603535360_n.jpg
 hometown: 'Kirkwood, Missouri'
 biography: >-
