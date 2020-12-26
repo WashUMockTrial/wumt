@@ -5,10 +5,10 @@ teamTitle: Treasurer
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 
+majors: 'Undecided'
 minors: 
 photo: 
-hometown: 
+hometown: 'Atlanta, Georgia'
 biography: >-
   Coming soon!
 ---
