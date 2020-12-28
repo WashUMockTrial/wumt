@@ -7,7 +7,7 @@ joinYear: '2019'
 graduationYear: '2023'
 majors: English
 minors: Legal Studies
-photo: /img/uploads/caroline kulits picture.jpg
+photo: /img/uploads/caroline k cropped.jpg
 hometown: 'Everett, Washington'
 biography: >-
   Building on her musical-theatre experience from roles such as a dancing napkin, 
