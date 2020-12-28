@@ -5,8 +5,7 @@ teamTitle: Coach
 role: Coach
 joinYear: 2016
 graduationYear: '2020'
-majors: Philosophy (Law and Policy)
-minors: Legal Studies
+majors: 'NYU Law Student'
 photo: /img/uploads/dan.png
 hometown: 'Long Island, NY'
 biography: >-
