@@ -6,12 +6,9 @@ role: Member
 joinYear: '2018'
 graduationYear: '2022'
 majors: History and Economics
-photo: /img/uploads/45110919_1799689713486269_6410622375888420864_n.jpg
+photo: /img/uploads/wumt harris.jpg
 hometown: 'Sarasota, Florida'
 biography: >-
-  Harris is a sophomore studying History and Economics. He has had a love for
-  public speaking for years, participating in theater, speech, and now mock
-  trial. He is excited to be a part of a such an amazing team filled with
-  wonderful people!
+  WUMT’s favorite Florida Man, Harris brings his love of gators, relaxed clothing standards, and utter cluelessness about the Midwest to every team function. He absolutely loves public speaking and this team, and he could not ask for a better group of people to devote his time to!
 ---
 
