@@ -5,15 +5,10 @@ teamTitle: Recruitment Chair
 role: Member
 joinYear: '2018'
 graduationYear: '2022'
-majors: Psychology and Political Science
-photo: /img/uploads/8a53e850dc1847ddbd3b12b502eed5c7.jpeg
-hometown: 'Boston, Massachusetts'
+majors: Political Science and Psychology
+photo: /img/uploads/wumt nathalie.jpeg
+hometown: 'Newton, Massachusetts'
 biography: >-
-  Nathalie loved doing mock trial in high school and knew she wanted to continue
-  doing it in college. At mock tournaments, you can find her playing
-  under-qualified expert witnesses, forgetting how to timekeep, and eating
-  excessive amounts of peanut M&Ms. Outside of mock, she enjoys tutoring (the
-  best) kids through Each One Teach One, eating stir fry at the Village, and
-  listening to 538 podcasts on Spotify.
+  After joining her high school's team on a whim and loving it, Nathalie knew that she wanted to continue mock trial in college. She feels lucky to have found such a wonderful home with WUMT. At tournaments, you can find her playing under-qualified expert witnesses, forgetting how to timekeep, and complaining about traveling to Iowa for the fifteenth time this year. Outside of mock, she enjoys crocheting, working in her psychology lab, and dreaming about working for 538.
 ---
 
