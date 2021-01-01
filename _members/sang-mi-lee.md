@@ -5,10 +5,10 @@ teamTitle: Treasurer
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 'Undeclared'
-minors: 
+majors: 'Psychology'
+minors: 'Philosophy or Legal Studies'
 photo: /img/uploads/wumt sang-mi.jpeg
 hometown: 'Atlanta, Georgia'
 biography: >-
-  Sang-Mi (song-me) didn’t know that her high school had a mock trial team until it was too late. Now, she plays witnesses with useless information and makes the opening statement too argumentative. In the rare times she’s not slaving away on mock, you can find her singing to no one’s enjoyment or attempting to find temporary peace in video games. As of this time, she’s happily engaged to Sofie Adams and can’t wait for their wedding.
+  After being surrounded by WUMT at the activities fair her freshman year, Sang-Mi (SONG-me) has since fallen in love with mock trial. Some classic court occurrences for “Light ‘Em Up Lee” are getting argumentative objections sustained against her on cross, not realizing how distracting her constant hair adjustments are, and staring blankly as an objectionable statement flies by. When not slaving away at mock, you can find her cuddling with her dogs or playing video games! As of now, she and Sofie are happily engaged and eager to be wed.
 ---
