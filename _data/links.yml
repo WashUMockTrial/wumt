@@ -3,8 +3,8 @@ home:
   url: /index
 
 about:
-  name: About
-  url: /about
+  name: FAQs
+  url: /faqs
 
 team:
   name: Team
