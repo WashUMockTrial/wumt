@@ -5,11 +5,9 @@ teamTitle: Coach
 role: Coach
 joinYear: 2016
 graduationYear: '2020'
-majors: Philosophy (Law and Policy)
-minors: Legal Studies
-majors: 'NYU Law Student'
-photo: /img/uploads/dan.png
-hometown: 'Long Island, NY'
+majors: 'Student at New York University School of Law'
+photo: /img/uploads/wumt dan.jpg
+hometown: 'Melville, New York'
 biography: >-
   Daniel joined WUMT as a freshman after loving mock trial all four years of
   high school. Daniel says that WUMT was where he met his first (and closest)
