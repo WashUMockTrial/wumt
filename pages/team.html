@@ -12,9 +12,9 @@ permalink: /team
     <ul class="container">
         {% for person in site.members %}
             {% if person.teamTitle == "Coach" %}
-                {% cycle '<li class="row">', '' %}
+                {% cycle '<li class="row equalHeight">', '', '', '' %}
                 {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
-                {% cycle '', '</li>' %}
+                {% cycle '', '', '', '</li>' %}
             {% endif %}
         {% endfor %}
     </ul>
