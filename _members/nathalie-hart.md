@@ -2,7 +2,7 @@
 layout: member
 title: Nathalie Hart
 teamTitle: Recruitment Chair
-role: Member
+role: member
 joinYear: '2018'
 graduationYear: '2022'
 majors: Political Science and Psychology
