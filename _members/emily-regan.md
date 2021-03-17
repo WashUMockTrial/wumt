@@ -2,7 +2,7 @@
 layout: member
 title: Emily Regan
 teamTitle: Tournament Co-Chair
-role: Member
+role: member
 joinYear: '2018'
 graduationYear: '2022'
 majors: Political Science and Global Health
