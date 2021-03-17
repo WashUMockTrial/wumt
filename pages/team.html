@@ -28,7 +28,7 @@ permalink: /team
     {% assign members = 0 %}
     <ul class="container">
         {% for person in site.members %}
-            {% if person.role == "member" %}
+            {% if person.role != "Coach" %}
                 {% assign members = members | plus:1 %}
                 {% cycle '<li class="row equalHeight">', '', '', '' %}
                 {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
