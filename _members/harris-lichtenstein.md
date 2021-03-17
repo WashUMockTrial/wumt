@@ -2,7 +2,7 @@
 layout: member
 title: Harris Lichtenstein
 teamTitle: New-Member Coordinator
-role: Member
+role: member
 joinYear: '2018'
 graduationYear: '2022'
 majors: History and Economics
