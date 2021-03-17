@@ -2,7 +2,7 @@
 layout: member
 title: David Decker
 teamTitle: Member
-role: Member
+role: member
 joinYear: '2018'
 graduationYear: '2022'
 majors: 'French and Philosophy'
