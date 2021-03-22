@@ -5,7 +5,7 @@ teamTitle: Member
 role: member
 joinYear: '2020'
 graduationYear: '2024'
-majors: 'Political Science and Economics'
+majors: 'Political Science; Economics'
 minors: 
 photo: /img/uploads/wumt jared.jpg
 hometown: 'Encino, California'
