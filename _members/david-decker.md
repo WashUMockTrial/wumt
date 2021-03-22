@@ -6,6 +6,7 @@ role: member
 joinYear: '2018'
 graduationYear: '2022'
 majors: 'French and Philosophy'
+minors: 'Linguistics'
 photo: /img/uploads/wumt david.jpeg
 hometown: 'St. Louis, Missouri'
 biography: >-
