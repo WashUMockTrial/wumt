@@ -5,7 +5,7 @@ teamTitle: New-Member Coordinator
 role: member
 joinYear: '2018'
 graduationYear: '2022'
-majors: History and Economics
+majors: History; Economics
 photo: /img/uploads/wumt harris.JPEG
 hometown: 'Sarasota, Florida'
 biography: >-
