@@ -18,9 +18,17 @@ title: page.title
                                 {% if page.role == "Coach" %}
                                     <span>{{ page.majors }}</span>
                                 {% else %}
-                                    <span>Major: {{ page.majors }}</span>
+				    {% if ';' in page.majors %}
+				    	<span>Majors: {{ page.majors }}</span>
+				    {% else %}
+                                    	<span>Major: {{ page.majors }}</span>
+				    {% endif %}
                                     {% unless page.minors == nil %}
-                                        <span>Minor: {{ page.minors }}</span>
+				    	{% if ';' in page.minors %}
+				    		<span>Minors: {{ page.minors }}</span>
+				    	{% else %}
+                                        	<span>Minor: {{ page.minors }}</span>
+				    	{% endif %}
                                     {% endunless %}
                                 {% endif %}
 				    <span>Hometown: {{ page.hometown }}</span>
