@@ -5,7 +5,7 @@ teamTitle: Tournament Co-Chair
 role: member
 joinYear: '2018'
 graduationYear: '2022'
-majors: Political Science and Global Health
+majors: Political Science; Global Health
 photo: /img/uploads/wumt emily.jpeg
 hometown: 'Libertyville, Illinois'
 biography: >-
