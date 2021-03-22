@@ -5,7 +5,7 @@ teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 'Sociology and Economics'
+majors: 'Sociology; Economics'
 minors: 
 photo: /img/uploads/wumt nidhi.jpeg
 hometown: 'Bloomington, Indiana'
