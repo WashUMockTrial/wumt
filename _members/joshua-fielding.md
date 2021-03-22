@@ -5,7 +5,7 @@ teamTitle: Social Chair
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 'Political Science and Sociology'
+majors: 'Political Science; Sociology'
 minors: 
 photo: /img/uploads/wumt josh.jpeg
 hometown: 'New York, New York'
