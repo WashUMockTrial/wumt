@@ -5,7 +5,7 @@ teamTitle: Member
 role: member
 joinYear: '2020'
 graduationYear: '2024'
-majors: History and WGSS
+majors: History; WGSS
 minors: 
 photo: /img/uploads/wumt sarah.jpg
 hometown: Highland Park, Illinois
