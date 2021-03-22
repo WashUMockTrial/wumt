@@ -6,7 +6,7 @@ role: member
 joinYear: '2019'
 graduationYear: '2023'
 majors: 'Interdisciplinary Project in the Humanities'
-minors: 'Religion & Politics and Legal Studies'
+minors: 'Religion and Politics; Legal Studies'
 photo: /img/uploads/wumt sofie.jpeg
 hometown: 'Detroit, Michigan'
 biography: >-
