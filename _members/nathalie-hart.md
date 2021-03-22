@@ -5,7 +5,7 @@ teamTitle: Recruitment Chair
 role: member
 joinYear: '2018'
 graduationYear: '2022'
-majors: Political Science and Psychology
+majors: Political Science; Psychology
 photo: /img/uploads/wumt nathalie.jpeg
 hometown: 'Newton, Massachusetts'
 biography: >-
