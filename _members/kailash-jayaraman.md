@@ -5,7 +5,7 @@ teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 'Finance and Economics & Strategy'
+majors: 'Finance; Economics and Strategy'
 minors: 
 photo: /img/uploads/wumt kailash.jpeg
 hometown: 'Snellville, Georgia'
