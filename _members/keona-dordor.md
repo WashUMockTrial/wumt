@@ -5,7 +5,7 @@ teamTitle: Member
 role: member
 joinYear: '2020'
 graduationYear: '2024'
-majors: Religion & Politics or Philosophy
+majors: Religion and Politics or Philosophy
 minors: 
 photo: /img/uploads/wumt keona.jpeg
 hometown: Nashville, Tennessee
