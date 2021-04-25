@@ -1,10 +1,10 @@
 ---
 title: Join WUMT!
 main_message: >-
-  WUMT has finished recruiting for the 2020-2021 school year, but you can follow us on 
+  WUMT will begin recruiting for the 2021-2022 school year in the fall. You can follow us on 
   [Facebook](https://www.facebook.com/WUMockTrial) and [Instagram](https://www.instagram.com/washumocktrial) 
-  to see what we're up to and get updates about future recruitment! If you have any questions, please 
-  email our Recruitment Chair, [Nathalie Hart](mailto:recruitment@washumocktrial.org).
+  to get updates about tryouts. If you have any questions, please email our Recruitment Chair, 
+  [Nathalie Hart](mailto:recruitment@washumocktrial.org).
 groups:
   - message: >-
       Judging simply by the name Mock Trial, one might assume that this activity
