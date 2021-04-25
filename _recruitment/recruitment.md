@@ -3,7 +3,7 @@ title: Join WUMT!
 main_message: >-
   WUMT will begin recruiting for the 2021-2022 school year in the fall. You can follow us on 
   [Facebook](https://www.facebook.com/WUMockTrial) and [Instagram](https://www.instagram.com/washumocktrial) 
-  to get updates about tryouts. If you have any questions, please email our Recruitment Chair, 
+  to get updates about tryouts and learn more about WUMT. If you have any questions, please email our Recruitment Chair, 
   [Nathalie Hart](mailto:recruitment@washumocktrial.org).
 groups:
   - message: >-
