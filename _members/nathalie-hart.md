@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Nathalie Hart
-teamTitle: Recruitment Chair
+teamTitle: Vice President
 role: member
 joinYear: '2018'
 graduationYear: '2022'
