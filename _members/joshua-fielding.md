@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Joshua Fielding
-teamTitle: Social Chair
+teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
