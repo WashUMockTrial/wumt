@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Alex Brown
-teamTitle: President
+teamTitle: Tournament Chair
 role: member
 joinYear: '2018'
 graduationYear: '2022'
