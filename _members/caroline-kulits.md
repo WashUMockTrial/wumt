@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Caroline Kulits
-teamTitle: Tournament Co-Chair
+teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
