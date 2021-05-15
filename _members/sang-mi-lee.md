@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sang-Mi Lee
-teamTitle: Treasurer
+teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
