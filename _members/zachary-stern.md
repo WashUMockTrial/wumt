@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Zachary Stern
-teamTitle: Member
+teamTitle: Recruitment Chair
 role: member
 joinYear: '2019'
 graduationYear: '2023'
