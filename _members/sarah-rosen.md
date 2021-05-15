@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sarah Rosen
-teamTitle: Member
+teamTitle: New-Member Coordinator
 role: member
 joinYear: '2020'
 graduationYear: '2024'
