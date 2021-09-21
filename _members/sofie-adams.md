@@ -6,9 +6,9 @@ role: member
 joinYear: '2019'
 graduationYear: '2023'
 majors: 'Interdisciplinary Project in the Humanities'
-minors: 'Religion and Politics; Legal Studies'
-photo: /img/uploads/wumt sofie.jpeg
+minors: 'Religion and Politics; German'
+photo: /img/uploads/wumt sofie.png
 hometown: 'Detroit, Michigan'
 biography: >-
-  After doing mock trial in high school, Sofie “Unpleasant” Adams was ecstatic to join WashU Mock Trial and this group of truly delightful people. Her proudest achievement (mock trial or otherwise) was that one time the coaches said her cross, “didn’t suck” (she’s been chasing that high ever since). So far, her favorite parts of college mock include: humanizing the trial box, feeling personally victimized by Kelly Doos, and playing Midwestern mothers (ope hi there, dear!). When not in mock she can be found looking at dogs on Pet Finder, annoying her professors, being the “cool aunt,” or thinking about — wait for it — mock trial. She eagerly awaits her wedding to Sang Mi in the Spring :’)
+  In round, you can usually find Sofie making best evidence objections (against the coaches' advice), saying "yuh" too much (against the coaches' advice), and keeping the coaches on their toes (against the coaches' advice). Outside of Mock and research, her hobbies include explaining her major to family and friends, winning staring contests, and avoiding conversations about the last chapter of <i>Don Quixote</i>.
 ---
