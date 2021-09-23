@@ -10,4 +10,4 @@ photo: /img/uploads/wumt rhys.jpg
 hometown: Cedar Grove, New Jersey
 biography: >-
   When he's not competing on the Mock Trial Team, Rhys enjoys long-distance running, trainspotting, and admiring history and architecture. Museums are very cool.
-  ---
+---
