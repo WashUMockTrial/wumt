@@ -5,7 +5,7 @@ teamTitle: Head Coach
 role: Coach
 joinYear: '2014'
 graduationYear: ''
-majors: Teacher at Riverview Gardens High School
+majors: Teacher at Missouri Torah Institute
 photo: /img/uploads/maximillion.jpg
 hometown: 'Dover, Massachusetts'
 biography: >-
