@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Andrew de las Alas
-teamTitle: Member
+teamTitle: Recruitment Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
