@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Lucy Demsky
-teamTitle: Member
+teamTitle: Tournament Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
