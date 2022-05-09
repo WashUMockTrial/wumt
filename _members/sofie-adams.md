@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sofie Adams
-teamTitle: President
+teamTitle: Member
 role: member
 joinYear: '2019'
 graduationYear: '2023'
