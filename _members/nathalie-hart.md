@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Nathalie Hart
-teamTitle: Vice President
+teamTitle: Member
 role: member
 joinYear: '2018'
 graduationYear: '2022'
