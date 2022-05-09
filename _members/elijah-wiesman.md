@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Elijah Wiesman
-teamTitle: Member
+teamTitle: Social Chair
 role: member
 joinYear: '2020'
 graduationYear: '2024'
