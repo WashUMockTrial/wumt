@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Kailash Jayaraman
-teamTitle: Member
+teamTitle: Treasurer
 role: member
 joinYear: '2019'
 graduationYear: '2023'
