@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Zachary Stern
-teamTitle: Recruitment Chair
+teamTitle: Vice President
 role: member
 joinYear: '2019'
 graduationYear: '2023'
