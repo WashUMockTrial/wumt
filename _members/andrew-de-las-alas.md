@@ -5,8 +5,8 @@ teamTitle: Recruitment Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
-majors: Political Science; Economics
-minors: Linguistics
+majors: Gloabal Studies, Sociology
+minors: Asian American Studies
 photo: /img/uploads/wumt andrew.jpg
 hometown: Indianapolis, Indiana
 biography: >-
