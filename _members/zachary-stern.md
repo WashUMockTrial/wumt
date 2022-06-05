@@ -5,8 +5,8 @@ teamTitle: Vice President
 role: member
 joinYear: '2019'
 graduationYear: '2023'
-majors: 'Undecided'
-minors: 
+majors: Psychological & Brain Sciences
+minors: Writing, Computer Science
 photo: /img/uploads/wumt zach.jpeg
 hometown: 'Baltimore, Maryland'
 biography: >-
