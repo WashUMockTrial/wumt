@@ -5,7 +5,7 @@ teamTitle: Recruitment Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
-majors: Gloabal Studies, Sociology
+majors: Global Studies, Sociology
 minors: Asian American Studies
 photo: /img/uploads/wumt andrew.jpg
 hometown: Indianapolis, Indiana
