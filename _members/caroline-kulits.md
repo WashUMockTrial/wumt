@@ -6,7 +6,7 @@ role: member
 joinYear: '2019'
 graduationYear: '2023'
 majors: English
-minors: Legal Studies
+minors: Legal Studies; Computer Science
 photo: /img/uploads/wumt caroline.jpg
 hometown: 'Casper, Wyoming'
 biography: >-
