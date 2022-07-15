@@ -8,7 +8,7 @@ graduationYear: '2023'
 majors: English
 minors: Legal Studies
 photo: /img/uploads/wumt caroline.jpg
-hometown: 'Everett, Washington'
+hometown: 'Casper, Wyoming'
 biography: >-
   Building on her musical-theatre experience from roles such as a dancing napkin, 
   a 19th-century French thug, and the Grim Reaper, Caroline tap-danced her way 
