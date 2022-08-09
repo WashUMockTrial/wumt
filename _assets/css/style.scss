@@ -98,7 +98,7 @@
 }
 
 div#primary-menu {
-    background-color: rgb(255, 255, 255);
+    // background-color: rgb(255, 255, 255);
 	text-align: center;
 }
 
@@ -115,4 +115,8 @@ body {
    #section-home{
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+.home-buttons{
+	background-color: aqua;
 }

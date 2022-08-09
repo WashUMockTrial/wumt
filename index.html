@@ -55,19 +55,39 @@ permalink: /index
                     </div>
                 </div>
 
-                <div class="row">
-                   <!-- //buttons team join questions contact -->
-                   <ul class="nav navbar-nav">
-                    {% for link in site.data.links %}
-                        {% assign data = link[1] %}
-                        <li><a href="{{ data.url }}">{{ data.name }}</a></li>
-                    {% endfor %}
-                </ul>
 
-                    
-                </div>
 
 
             </div>
     </section>
+</div>
+<div class="container clearfix">
+    <div class="row">
+        <!-- //buttons team  questions join contact -->
+        <ul class="nav navbar-nav home-buttons">
+            {% for link in site.data.links %}
+            {% assign data = link[1] %}
+            <li><a href="{{ data.url }}">{{ data.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+
+    </div>
+
+
+    <div class="row">
+        <!-- join photo background and BIG Actors / arguers buttons that lead to the same place, the join page-->
+        <span>Actors ></span>
+        <span>Arguers ></span>
+    </div>
+
+    <div class="row">
+        <!-- contact banner like top-->
+        <ul class="nav navbar-nav home-buttons">
+            {% for link in site.data.links %}
+            {% assign data = link[1] %}
+            <li><a href="{{ data.url }}">{{ data.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
