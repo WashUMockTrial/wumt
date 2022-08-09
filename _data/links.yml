@@ -2,21 +2,21 @@ home:
   name: Home
   url: /index
 
-about:
-  name: FAQs
-  url: /faqs
-
 team:
   name: Team
   url: /team
 
-#arch:
-#  name: Arch Invitational
-#  url: /arch
+about:
+  name: FAQs
+  url: /faqs
 
 join:
   name: Join
   url: /join
+
+#arch:
+#  name: Arch Invitational
+#  url: /arch
 
 contact:
   name: Contact Us
