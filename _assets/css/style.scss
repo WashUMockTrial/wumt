@@ -105,9 +105,15 @@ div#primary-menu {
 body {
 	
 	background-color: #f1f1f1;
+
+	background-image: url('brookings.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
    }
 .title{
-	margin-bottom: 30%;
+	margin-bottom: 25%;
     margin-top: 11%;
 	width: 100%;
 	background-color: #ffffff;

@@ -72,14 +72,9 @@ permalink: /index
                  
                     
                     <li><a href="/team" class="home-buttons">Team</a></li>
-                    
-                    
-                    <li><a href="/faqs" class="home-buttons">FAQs</a></li>
-                    
-                    
+                 
                     <li><a href="/join" class="home-buttons">Join</a></li>
-                    
-                    
+                                        
                     <li><a href="/contact" class="home-buttons">Contact Us</a></li>
                     
                 </ul>
@@ -96,11 +91,6 @@ permalink: /index
 
     <div class="row">
         <!-- contact banner like top-->
-        <ul class="nav navbar-nav home-buttons">
-            {% for link in site.data.links %}
-            {% assign data = link[1] %}
-            <li><a href="{{ data.url }}">{{ data.name }}</a></li>
-            {% endfor %}
-        </ul>
+        
     </div>
 </div>
