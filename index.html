@@ -55,6 +55,19 @@ permalink: /index
                     </div>
                 </div>
 
+                <div class="row">
+                   <!-- //buttons team join questions contact -->
+                   <ul class="nav navbar-nav">
+                    {% for link in site.data.links %}
+                        {% assign data = link[1] %}
+                        <li><a href="{{ data.url }}">{{ data.name }}</a></li>
+                    {% endfor %}
+                </ul>
+
+                    
+                </div>
+
+
             </div>
     </section>
 </div>
