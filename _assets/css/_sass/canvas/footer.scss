@@ -10,7 +10,9 @@
 -----------------------------------------------------------------*/
 
 #footer {
-	position: relative;
+	position: fixed;
+    bottom: 0;
+    width: 100%;
 	background-color: #EEE;
 	border-top: 5px solid rgba(0,0,0,0.2);
 	.footer-widgets-wrap {
