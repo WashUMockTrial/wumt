@@ -14,9 +14,9 @@ join:
   name: Join
   url: /join
 
-#arch:
-#  name: Arch Invitational
-#  url: /arch
+arch:
+ name: Arch Invitational
+ url: /arch
 
 contact:
   name: Contact Us
