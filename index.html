@@ -4,31 +4,41 @@ permalink: /index
 ---
 
 
+
+<p style="background-image: url('img/brookings.png');"></p>
+<div class="container clearfix title">
+    <div id="section-home" class="heading-block title-center nobottomborder page-section">
+        <h1 class="">WashU Mock Trial</h1>
+        {% comment %}<span>Washington University's Nationally Recognized Mock Trial Team is excited to welcome its
+            newest members:</span>{% endcomment %}
+        <span>Washington University's Nationally Recognized Mock Trial Team</span>
+    </div>
+</div>
 <div id="wrapper" class="clearfix">
     <section id="content row">
         <div class="container clearfix">
-            <div id="section-home" class="heading-block title-center nobottomborder page-section">
-                <h1>Welcome to WUMT</h1>
+            <!-- <div id="section-home" class="heading-block title-center nobottomborder page-section">
+                <h1 class="">WashU Mock Trial</h1>
                 {% comment %}<span>Washington University's Nationally Recognized Mock Trial Team is excited to welcome its newest members:</span>{% endcomment %}
                 <span>Washington University's Nationally Recognized Mock Trial Team</span>
-            </div>
+            </div> -->
 
             <div class="container clearfix">
 
                 {% comment %}
-                    <div id="countdown-ex1" class="countdown countdown-large divcenter is-countdown welcomePanel">
-                        {% assign rows = site.data.newMembers.size | divided_by: 4.0 | ceil %}
-                        {% for i in (1..rows) %}
-                            <div class="row">
-                                {% assign offset = forloop.index0 | times: 4 %}
-                                {% for member in site.data.newMembers limit:4 offset:offset %}
-                                    <span class="welcomeGrid"><span class="welcomeTitle">{{ member }}</span></span>
-                                {% endfor %}
-                            </div>
-                            <hr/>
+                <div id="countdown-ex1" class="countdown countdown-large divcenter is-countdown welcomePanel">
+                    {% assign rows = site.data.newMembers.size | divided_by: 4.0 | ceil %}
+                    {% for i in (1..rows) %}
+                    <div class="row">
+                        {% assign offset = forloop.index0 | times: 4 %}
+                        {% for member in site.data.newMembers limit:4 offset:offset %}
+                        <span class="welcomeGrid"><span class="welcomeTitle">{{ member }}</span></span>
                         {% endfor %}
-
                     </div>
+                    <hr />
+                    {% endfor %}
+
+                </div>
                 {% endcomment %}
 
                 <div class="clear"></div>
@@ -36,7 +46,7 @@ permalink: /index
 
                 <div class="row">
                     <div class="col-md-7 topmargin nobottommargin keep-ratio">
-                        <img data-animate='fadeInLeft' alt="The team" src="img/uploads/wumt 2020 orcs.jpg">
+                        <img data-animate='fadeInLeft' alt="The team" src="img/uploads/wumt2020orcs.jpg">
                     </div>
 
                     <div class="col-md-4 topmargin nobottommargin">
@@ -45,6 +55,46 @@ permalink: /index
                     </div>
                 </div>
 
+
+
+
             </div>
     </section>
+
+    <div class="container clearfix">
+        <div class="row">
+            <!-- //buttons team  questions join contact -->
+            <div class="container clearfix">
+                <div class="row" style="
+                DISPLAY: flex;
+                JUSTIFY-CONTENT: CENTER;
+            ">
+                    <!-- //buttons team  questions join contact -->
+                    <ul class="nav navbar-nav home-buttons">
+
+
+
+                        <li><a href="/team" class="home-buttons col-md-3">Team</a></li>
+
+                        <li><a href="/join" class="home-buttons col-md-3">Join</a></li>
+
+                        <li><a href="/contact" class="home-buttons col-md-3">Contact Us</a></li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- join photo background and BIG Actors / arguers buttons that lead to the same place, the join page-->
+            
+        </div>
+
+        <div class="row">
+            <!-- contact banner like top-->
+
+        </div>
+
+    </div>
 </div>
