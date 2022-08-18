@@ -5,8 +5,8 @@ teamTitle: Member
 role: member
 joinYear: '2021'
 graduationYear: '2025'
-majors: 
-minors: 
+majors: Philosophy-Neuroscience-Psychology; Drama
+minors: Women, Gender, and Sexuality Studies
 photo: 
 hometown: Midland, Texas
 biography: >-
