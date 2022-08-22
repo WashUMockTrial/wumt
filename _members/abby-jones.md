@@ -6,6 +6,7 @@ role: member
 joinYear: '2020'
 graduationYear: '2023'
 majors: 'Marketing'
+minors: 'Design; Business of Entertainment'
 photo: /img/uploads/wumt abby.jpg
 hometown: 'Chicago, Illinois'
 biography: >-
