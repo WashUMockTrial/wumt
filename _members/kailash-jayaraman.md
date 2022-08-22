@@ -6,7 +6,7 @@ role: member
 joinYear: '2019'
 graduationYear: '2023'
 majors: 'Finance; Economics and Strategy'
-minors: 
+minors: 'Psychological & Brain Sciences'
 photo: /img/uploads/wumt kailash.jpeg
 hometown: 'Snellville, Georgia'
 biography: >-
