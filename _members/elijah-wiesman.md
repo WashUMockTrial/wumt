@@ -5,8 +5,8 @@ teamTitle: Social Chair
 role: member
 joinYear: '2020'
 graduationYear: '2024'
-majors: International and Area Studies
-minors: Religion and Politics
+majors: International Affairs
+minors: Spanish; Religion and Politics
 photo: /img/uploads/wumt elijah.jpeg
 hometown: Arlington, Massachusetts
 biography: >-
