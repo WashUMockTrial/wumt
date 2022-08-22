@@ -5,7 +5,8 @@ teamTitle: Tournament Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
-majors: Undecided
+majors: Psychology
+minors: WGSS; Speech and Hearing Sciences
 photo: /img/uploads/wumt lucy.png
 hometown: Baltimore, Maryland
 biography: >-
