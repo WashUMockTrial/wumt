@@ -5,8 +5,8 @@ teamTitle: New-Member Coordinator
 role: member
 joinYear: '2021'
 graduationYear: '2025'
-majors: Sociology
-minors: Spanish
+majors: Sociology; Spanish
+minors: WGSS
 photo: /img/uploads/wumt will.jpg
 hometown: Winnetka, Illinois
 biography: >-
