@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Shreya Chilukuri
-teamTitle: Member
+teamTitle: Diversity, Equity, & Inclusion Chair
 role: member
 joinYear: '2021'
 graduationYear: '2025'
