@@ -24,7 +24,7 @@ permalink: /arch
                     </ul>
                 </div>
             </div>
-            {% if page.packet == nil %}
+            <!-- {% if page.packet == nil %}
                 {% assign disable_packet = "disabled" %}
             {% endif %}
             <a href="{{ page.packet.url | default: '#' }}" {{ disable_packet }}
@@ -33,11 +33,13 @@ permalink: /arch
                 {% assign disable_results = "disabled" %}
             {% endif %}
             <a href="{{ page.results.url | default: '#' }}" {{ disable_results }}
+               class="btn btn-block btn-lg btn-danger">Tournament Results</a> -->
+            <a href="/_arch/Arch_Tab_Summary_2022.pdf"
                class="btn btn-block btn-lg btn-danger">Tournament Results</a>
         </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
 
         <div class="col-md-6">
 
@@ -127,7 +129,7 @@ permalink: /arch
             </div>
 
         </div>
-    </div>
+    </div> -->
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
