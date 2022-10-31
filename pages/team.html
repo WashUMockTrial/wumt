@@ -5,21 +5,6 @@ permalink: /team
 ---
 
 
-<div id="coaches" class="grid-container clearfix">
-    <div class="fancy-title title-border">
-        <h3>Coaches</h3>
-    </div>
-    <ul class="container">
-        {% for person in site.members %}
-            {% if person.role == "Coach" %}
-                {% cycle '<li class="row equalHeight">', '', '', '', '' %}
-                {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
-                {% cycle '', '', '', '', '</li>' %}
-            {% endif %}
-        {% endfor %}
-    </ul>
-</div>
-
 <div id="team-members" class="grid-container clearfix">
     <div class="fancy-title title-border">
         <h3>Team Members</h3>
@@ -41,5 +26,20 @@ permalink: /team
         {% endif %}
 
 
+    </ul>
+</div>
+
+<div id="coaches" class="grid-container clearfix">
+    <div class="fancy-title title-border">
+        <h3>Coaches</h3>
+    </div>
+    <ul class="container">
+        {% for person in site.members %}
+            {% if person.role == "Coach" %}
+                {% cycle '<li class="row equalHeight">', '', '', '', '' %}
+                {% include member_stub.html person=person size="col-md-3 col-xs-12" %}
+                {% cycle '', '', '', '', '</li>' %}
+            {% endif %}
+        {% endfor %}
     </ul>
 </div>
