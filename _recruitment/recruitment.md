@@ -1,7 +1,7 @@
 ---
 title: Join WUMT!
 main_message: >-
-  WUMT will recruit for the 2022-2023 school year in the fall. Follow us on 
+  WUMT will recruit for the 2023-2024 school year in the fall. Follow us on 
   [Instagram](https://www.instagram.com/washumocktrial) and [Facebook](https://www.facebook.com/WUMockTrial) 
   to get updates about tryouts and learn more about WUMT! If you have any questions, please email our Recruitment Chair, 
   [Andrew de las Alas](mailto:recruitment@washumocktrial.org).
